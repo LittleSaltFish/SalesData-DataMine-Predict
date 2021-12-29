@@ -1,0 +1,32 @@
+digraph Tree {
+node [shape=box] ;
+0 [label="coupon <= 0.012\nentropy = 0.276\nsamples = 13830\nvalue = [13172, 658]"] ;
+1 [label="distance_day <= 29.5\nentropy = 0.046\nsamples = 12266\nvalue = [12203, 63]"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="chinese_subscribe_num <= 0.136\nentropy = 0.172\nsamples = 1993\nvalue = [1942, 51]"] ;
+1 -> 2 ;
+3 [label="entropy = 0.045\nsamples = 1424\nvalue = [1417, 7]"] ;
+2 -> 3 ;
+4 [label="entropy = 0.393\nsamples = 569\nvalue = [525, 44]"] ;
+2 -> 4 ;
+5 [label="study_num <= 0.5\nentropy = 0.013\nsamples = 10273\nvalue = [10261, 12]"] ;
+1 -> 5 ;
+6 [label="entropy = 0.006\nsamples = 8822\nvalue = [8818, 4]"] ;
+5 -> 6 ;
+7 [label="entropy = 0.049\nsamples = 1451\nvalue = [1443, 8]"] ;
+5 -> 7 ;
+8 [label="distance_day <= 31.896\nentropy = 0.958\nsamples = 1564\nvalue = [969, 595]"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="login_day <= 5.993\nentropy = 0.873\nsamples = 630\nvalue = [185, 445]"] ;
+8 -> 9 ;
+10 [label="entropy = 0.609\nsamples = 394\nvalue = [59, 335]"] ;
+9 -> 10 ;
+11 [label="entropy = 0.997\nsamples = 236\nvalue = [126, 110]"] ;
+9 -> 11 ;
+12 [label="distance_day <= 172.0\nentropy = 0.636\nsamples = 934\nvalue = [784, 150]"] ;
+8 -> 12 ;
+13 [label="entropy = 0.846\nsamples = 549\nvalue = [399, 150]"] ;
+12 -> 13 ;
+14 [label="entropy = 0.0\nsamples = 385\nvalue = [385, 0]"] ;
+12 -> 14 ;
+}

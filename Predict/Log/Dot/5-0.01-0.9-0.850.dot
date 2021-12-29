@@ -1,0 +1,36 @@
+digraph Tree {
+node [shape=box] ;
+0 [label="coupon <= 0.5\nentropy = 1.0\nsamples = 100\nvalue = [50, 50]"] ;
+1 [label="distance_day <= 24.5\nentropy = 0.337\nsamples = 48\nvalue = [45, 3]"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="age_month <= 58.0\nentropy = 1.0\nsamples = 6\nvalue = [3, 3]"] ;
+1 -> 2 ;
+3 [label="schoolreportpage <= 2.0\nentropy = 0.811\nsamples = 4\nvalue = [3, 1]"] ;
+2 -> 3 ;
+4 [label="entropy = 0.0\nsamples = 3\nvalue = [3, 0]"] ;
+3 -> 4 ;
+5 [label="entropy = 0.0\nsamples = 1\nvalue = [0, 1]"] ;
+3 -> 5 ;
+6 [label="entropy = 0.0\nsamples = 2\nvalue = [0, 2]"] ;
+2 -> 6 ;
+7 [label="entropy = 0.0\nsamples = 42\nvalue = [42, 0]"] ;
+1 -> 7 ;
+8 [label="distance_day <= 223.5\nentropy = 0.457\nsamples = 52\nvalue = [5, 47]"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="chinese_subscribe_num <= 0.5\nentropy = 0.327\nsamples = 50\nvalue = [3, 47]"] ;
+8 -> 9 ;
+10 [label="chapter_module <= 7.0\nentropy = 0.65\nsamples = 18\nvalue = [3, 15]"] ;
+9 -> 10 ;
+11 [label="finish_num <= 1.5\nentropy = 0.985\nsamples = 7\nvalue = [3, 4]"] ;
+10 -> 11 ;
+12 [label="entropy = 0.0\nsamples = 3\nvalue = [0, 3]"] ;
+11 -> 12 ;
+13 [label="entropy = 0.811\nsamples = 4\nvalue = [3, 1]"] ;
+11 -> 13 ;
+14 [label="entropy = 0.0\nsamples = 11\nvalue = [0, 11]"] ;
+10 -> 14 ;
+15 [label="entropy = 0.0\nsamples = 32\nvalue = [0, 32]"] ;
+9 -> 15 ;
+16 [label="entropy = 0.0\nsamples = 2\nvalue = [2, 0]"] ;
+8 -> 16 ;
+}

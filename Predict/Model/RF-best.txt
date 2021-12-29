@@ -1,0 +1,95 @@
+Best params:
+
+{'n_estimators': 187, 'min_samples_split': 6, 'min_samples_leaf': 2, 'max_depth': 19}
+[0.00352354 0.00384741 0.00189451 ... 0.09654794 0.00640411 0.00108027]
+==================================================
+type : RandomForest
+train_size : 0.9
+test_size : 0.1
+n_estimators : 187
+min_samples_split : 6
+min_samples_leaf : 2
+max_depth : 19
+--------------------------------------------------
+AUC : 0.98943
+ACC_value : 0.97551
+Recall_value : 0.33535
+F1_Score_value : 0.50075
+Precesion_value : 0.98809
+ConfusionMatrix :
+[[13019     2]
+ [  329   166]]
+--------------------------------------------------
+Report :
+              precision    recall  f1-score   support
+
+           0       0.98      1.00      0.99     13021
+           1       0.99      0.34      0.50       495
+
+    accuracy                           0.98     13516
+   macro avg       0.98      0.67      0.74     13516
+weighted avg       0.98      0.98      0.97     13516
+
+==================================================
+
+f1 is : 0.5007541478129713
+{'n_estimators': 51, 'min_samples_split': 6, 'min_samples_leaf': 2, 'max_depth': 19}
+==================================================
+type : RandomForest
+train_size : 0.9
+test_size : 0.1
+n_estimators : 51
+min_samples_split : 6
+min_samples_leaf : 2
+max_depth : 19
+--------------------------------------------------
+AUC : 0.98898
+ACC_value : 0.97639
+Recall_value : 0.33403
+F1_Score_value : 0.49921
+Precesion_value : 0.98757
+ConfusionMatrix : 
+[[13038     2]
+ [  317   159]]
+--------------------------------------------------
+Report : 
+              precision    recall  f1-score   support
+
+           0       0.98      1.00      0.99     13040
+           1       0.99      0.33      0.50       476
+
+    accuracy                           0.98     13516
+   macro avg       0.98      0.67      0.74     13516
+weighted avg       0.98      0.98      0.97     13516
+
+==================================================
+{'n_estimators': 24, 'min_samples_split': 11, 'min_samples_leaf': 4, 'max_depth': 17}
+==================================================
+type : RandomForest
+train_size : 0.9
+test_size : 0.1
+n_estimators : 24
+min_samples_split : 11
+min_samples_leaf : 4
+max_depth : 17
+--------------------------------------------------
+AUC : 0.99148
+ACC_value : 0.97277
+Recall_value : 0.25
+F1_Score_value : 0.39869
+Precesion_value : 0.98387
+ConfusionMatrix : 
+[[13026     2]
+ [  366   122]]
+--------------------------------------------------
+Report : 
+              precision    recall  f1-score   support
+
+           0       0.97      1.00      0.99     13028
+           1       0.98      0.25      0.40       488
+
+    accuracy                           0.97     13516
+   macro avg       0.98      0.62      0.69     13516
+weighted avg       0.97      0.97      0.96     13516
+
+==================================================

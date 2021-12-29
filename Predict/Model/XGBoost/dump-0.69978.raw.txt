@@ -1,0 +1,1466 @@
+booster[0]:
+0:[coupon<0.0102530262] yes=1,no=2,missing=1
+	1:[distance_day<443.5] yes=3,no=4,missing=3
+		3:[楚雄彝族自治州<1] yes=7,no=8,missing=7
+			7:leaf=-0.0495327115
+			8:leaf=-0.0125000002
+		4:leaf=-0.0125000002
+	2:[distance_day<31.7562408] yes=5,no=6,missing=5
+		5:[login_day<5.9700284] yes=9,no=10,missing=9
+			9:[login_time<5.16272736] yes=13,no=14,missing=13
+				13:[first_order_time<1546751104] yes=21,no=22,missing=21
+					21:leaf=-0
+					22:leaf=-0.0382352956
+				14:[login_diff_time<1.19741988] yes=23,no=24,missing=23
+					23:[first_order_time<1556673920] yes=33,no=34,missing=33
+						33:[learn_num<7.51781654] yes=53,no=54,missing=53
+							53:leaf=0.0486046523
+							54:leaf=0.0100000007
+						34:leaf=-0
+					24:[first_order_time<1551024128] yes=35,no=36,missing=35
+						35:[main_home<29.3513527] yes=55,no=56,missing=55
+							55:[login_diff_time<2.03363204] yes=87,no=88,missing=87
+								87:leaf=-0.0333333351
+								88:leaf=0.0200000014
+							56:[evaulationcenter<3.5] yes=89,no=90,missing=89
+								89:[age_month<39.5] yes=117,no=118,missing=117
+									117:leaf=-0
+									118:[model_num<17.8653183] yes=135,no=136,missing=135
+										135:leaf=0.0450617298
+										136:leaf=0.0166666675
+								90:[main_home2<48.5] yes=119,no=120,missing=119
+									119:leaf=-0.0277777798
+									120:leaf=0.026923079
+						36:[video_read<32.7951202] yes=57,no=58,missing=57
+							57:leaf=-0.036666669
+							58:leaf=0.0125000002
+			10:[coupon<1.00485861] yes=15,no=16,missing=15
+				15:[learn_num<4.95635557] yes=25,no=26,missing=25
+					25:[video_read<17] yes=37,no=38,missing=37
+						37:leaf=-0.0342105292
+						38:[course_tab<3.5] yes=59,no=60,missing=59
+							59:[chapter_module<1.5] yes=91,no=92,missing=91
+								91:leaf=0.0200000014
+								92:[evaulationcenter<1.5] yes=121,no=122,missing=121
+									121:leaf=-0.0333333351
+									122:leaf=-0
+							60:[chinese_subscribe_num<0.262108922] yes=93,no=94,missing=93
+								93:leaf=-0
+								94:leaf=0.0388888903
+					26:[login_diff_time<0.845000029] yes=39,no=40,missing=39
+						39:[first_order_time<1551746304] yes=61,no=62,missing=61
+							61:leaf=0.0277777798
+							62:leaf=-0.0200000014
+						40:[distance_day<23.5] yes=63,no=64,missing=63
+							63:[course_order_num<1.5] yes=95,no=96,missing=95
+								95:[course_tab<3.5] yes=123,no=124,missing=123
+									123:leaf=-0.0100000007
+									124:leaf=-0.0473684222
+								96:leaf=-0.00454545487
+							64:[login_time<35] yes=97,no=98,missing=97
+								97:leaf=-0.0125000002
+								98:leaf=0.0125000002
+				16:[course_order_num<0.0625953451] yes=27,no=28,missing=27
+					27:[learn_num<4.5] yes=41,no=42,missing=41
+						41:[coupon<2.5] yes=65,no=66,missing=65
+							65:leaf=-0
+							66:leaf=0.0346153863
+						42:[main_home2<105] yes=67,no=68,missing=67
+							67:leaf=-0.0333333351
+							68:[login_day<7.68040848] yes=99,no=100,missing=99
+								99:leaf=0.0250000004
+								100:leaf=-0.0125000002
+					28:[coupon_visit<8.5] yes=43,no=44,missing=43
+						43:[task<2.5] yes=69,no=70,missing=69
+							69:leaf=-0
+							70:[finish_num<7.71043968] yes=101,no=102,missing=101
+								101:leaf=0.0447368436
+								102:leaf=0.0125000002
+						44:leaf=-0.0125000002
+		6:[distance_day<171.5] yes=11,no=12,missing=11
+			11:[course_order_num<0.00828810781] yes=17,no=18,missing=17
+				17:[first_order_price<1.48981619] yes=29,no=30,missing=29
+					29:[login_diff_time<8.63000011] yes=45,no=46,missing=45
+						45:[study_num<0.233126417] yes=71,no=72,missing=71
+							71:[北京<1] yes=103,no=104,missing=103
+								103:[course_tab<74.5] yes=125,no=126,missing=125
+									125:leaf=-0.0424050651
+									126:leaf=-0
+								104:leaf=-0.00454545487
+							72:[task<29.5] yes=105,no=106,missing=105
+								105:[login_diff_time<0.710000038] yes=127,no=128,missing=127
+									127:leaf=-0.00454545487
+									128:[learn_num<0.5] yes=137,no=138,missing=137
+										137:leaf=-0
+										138:leaf=-0.0406976752
+								106:[login_day<5.5] yes=129,no=130,missing=129
+									129:leaf=0.026923079
+									130:leaf=-0.0250000004
+						46:[main_home<15.5] yes=73,no=74,missing=73
+							73:leaf=-0.0250000004
+							74:leaf=0.0300000012
+					30:[login_day<4.74490833] yes=47,no=48,missing=47
+						47:[task<9.65328598] yes=75,no=76,missing=75
+							75:[distance_day<108] yes=107,no=108,missing=107
+								107:leaf=-0.0318181813
+								108:leaf=-0
+							76:[learn_num<3.59078264] yes=109,no=110,missing=109
+								109:leaf=0.0350000001
+								110:leaf=-0.0100000007
+						48:[partnergamebarrierspage<0.5] yes=77,no=78,missing=77
+							77:[main_home2<31.5] yes=111,no=112,missing=111
+								111:leaf=0.00555555569
+								112:leaf=-0.0411764719
+							78:leaf=0.0250000004
+				18:[study_num<0.0105383378] yes=31,no=32,missing=31
+					31:[coupon_visit<0.5] yes=49,no=50,missing=49
+						49:[video_read<53.8289642] yes=79,no=80,missing=79
+							79:[distance_day<62] yes=113,no=114,missing=113
+								113:leaf=0.0357142873
+								114:[first_order_price<0.5] yes=131,no=132,missing=131
+									131:leaf=-0.0300000012
+									132:leaf=0.0250000004
+							80:leaf=-0.0277777798
+						50:[first_order_time<1543417600] yes=81,no=82,missing=81
+							81:leaf=-0
+							82:leaf=-0.042857144
+					32:[learn_num<6.98046398] yes=51,no=52,missing=51
+						51:[launch_time<2.5] yes=83,no=84,missing=83
+							83:[main_home<127.697739] yes=115,no=116,missing=115
+								115:[share<0.0432016365] yes=133,no=134,missing=133
+									133:[login_time<28.5] yes=139,no=140,missing=139
+										139:leaf=0.0300000012
+										140:leaf=-0.0125000002
+									134:leaf=0.0464912318
+								116:leaf=-0
+							84:leaf=-0.00555555569
+						52:[coupon<1.22948074] yes=85,no=86,missing=85
+							85:leaf=-0.0346153863
+							86:leaf=0.0125000002
+			12:[distance_day<806.844543] yes=19,no=20,missing=19
+				19:leaf=-0.0494252853
+				20:leaf=0.0250000004
+booster[1]:
+0:[coupon<0.0102530262] yes=1,no=2,missing=1
+	1:[age_month<916] yes=3,no=4,missing=3
+		3:leaf=-0.0483171754
+		4:leaf=-0.0159843005
+	2:[distance_day<31.7562408] yes=5,no=6,missing=5
+		5:[login_day<5.9700284] yes=7,no=8,missing=7
+			7:[login_time<5.16272736] yes=11,no=12,missing=11
+				11:[first_order_time<1546751104] yes=19,no=20,missing=19
+					19:leaf=-0
+					20:leaf=-0.0375148952
+				12:[login_diff_time<1.19741988] yes=21,no=22,missing=21
+					21:[first_order_time<1556673920] yes=33,no=34,missing=33
+						33:[learn_num<7.51781654] yes=55,no=56,missing=55
+							55:leaf=0.047439862
+							56:leaf=0.00985014811
+						34:leaf=-0
+					22:[first_order_time<1551024128] yes=35,no=36,missing=35
+						35:[main_home<29.3513527] yes=57,no=58,missing=57
+							57:[login_diff_time<2.03363204] yes=87,no=88,missing=87
+								87:leaf=-0.0327838995
+								88:leaf=0.0197011903
+							58:[evaulationcenter<3.5] yes=89,no=90,missing=89
+								89:[age_month<39.5] yes=113,no=114,missing=113
+									113:leaf=-0
+									114:[model_num<17.8653183] yes=133,no=134,missing=133
+										133:leaf=0.0440122299
+										134:leaf=0.0163896512
+								90:[main_home2<48.5] yes=115,no=116,missing=115
+									115:leaf=-0.0273949355
+									116:leaf=0.0264604483
+						36:[schoolreportpage<2.4604454] yes=59,no=60,missing=59
+							59:leaf=-0.0351550803
+							60:leaf=0.00565556809
+			8:[coupon<1.00485861] yes=13,no=14,missing=13
+				13:[learn_num<4.95635557] yes=23,no=24,missing=23
+					23:[video_read<17] yes=37,no=38,missing=37
+						37:leaf=-0.0335431285
+						38:[course_tab<3.5] yes=61,no=62,missing=61
+							61:[chapter_module<1.5] yes=91,no=92,missing=91
+								91:leaf=0.0197011903
+								92:[evaulationcenter<1.5] yes=117,no=118,missing=117
+									117:leaf=-0.0327838995
+									118:leaf=-0
+							62:[chinese_subscribe_num<0.262108922] yes=93,no=94,missing=93
+								93:leaf=-0
+								94:leaf=0.0381440297
+					24:[login_diff_time<0.845000029] yes=39,no=40,missing=39
+						39:[course_tab<50] yes=63,no=64,missing=63
+							63:leaf=-0.0198208243
+							64:leaf=0.0275273751
+						40:[course_order_num<1.5] yes=65,no=66,missing=65
+							65:[distance_day<23.5] yes=95,no=96,missing=95
+								95:[course_tab<3.5] yes=119,no=120,missing=119
+									119:leaf=-0.00985014811
+									120:leaf=-0.0462713279
+								96:leaf=-0.00451715756
+							66:leaf=4.02443184e-05
+				14:[chinese_subscribe_num<0.201834872] yes=25,no=26,missing=25
+					25:[age_month<62.5] yes=41,no=42,missing=41
+						41:[chapter_module<16.5] yes=67,no=68,missing=67
+							67:[first_order_time<1544191488] yes=97,no=98,missing=97
+								97:leaf=0.0195019878
+								98:leaf=-0.0275597107
+							68:leaf=0.0312266741
+						42:[lightcoursetab<1.96380496] yes=69,no=70,missing=69
+							69:leaf=-0.00467675505
+							70:leaf=-0.0316971056
+					26:[ppt<10.4661074] yes=43,no=44,missing=43
+						43:leaf=-0.00821911916
+						44:[model_num<6.44509125] yes=71,no=72,missing=71
+							71:leaf=-0.000112297654
+							72:leaf=0.0429884456
+		6:[distance_day<127.5] yes=9,no=10,missing=9
+			9:[course_order_num<0.00828810781] yes=15,no=16,missing=15
+				15:[first_order_price<1.48981619] yes=27,no=28,missing=27
+					27:[login_diff_time<8.63000011] yes=45,no=46,missing=45
+						45:[login_diff_time<0.799924493] yes=73,no=74,missing=73
+							73:[distance_day<65.5] yes=99,no=100,missing=99
+								99:[ppt<7.5] yes=121,no=122,missing=121
+									121:leaf=-0.0243076067
+									122:leaf=0.0302470978
+								100:leaf=-0.0384915657
+							74:[answer_task<30.5] yes=101,no=102,missing=101
+								101:[coupon<1.24749708] yes=123,no=124,missing=123
+									123:leaf=-0.0427308641
+									124:[progress_bar<3] yes=135,no=136,missing=135
+										135:leaf=-0.0325886272
+										136:leaf=0.00575564429
+								102:[first_order_time<1543717760] yes=125,no=126,missing=125
+									125:leaf=0.0170922857
+									126:[distance_day<63.5] yes=137,no=138,missing=137
+										137:leaf=-0.0350046605
+										138:leaf=-0.00527791306
+						46:leaf=0.0113381436
+					28:[task<30.5] yes=47,no=48,missing=47
+						47:[login_day<4.74490833] yes=75,no=76,missing=75
+							75:[task<9.65328598] yes=103,no=104,missing=103
+								103:[distance_day<108] yes=127,no=128,missing=127
+									127:leaf=-0.0313170701
+									128:leaf=-0
+								104:[camp_num<1.65741253] yes=129,no=130,missing=129
+									129:leaf=0.0341027044
+									130:leaf=-0.00479598762
+							76:[mainpage<10.5] yes=105,no=106,missing=105
+								105:leaf=-0.0420723855
+								106:leaf=-0.00414790818
+						48:[mainpage<2.95737267] yes=77,no=78,missing=77
+							77:leaf=-0.00541240908
+							78:leaf=0.0329715274
+				16:[study_num<0.0105383378] yes=29,no=30,missing=29
+					29:[coupon_visit<0.5] yes=49,no=50,missing=49
+						49:[video_read<53.8289642] yes=79,no=80,missing=79
+							79:[distance_day<62] yes=107,no=108,missing=107
+								107:leaf=0.0350845903
+								108:[first_order_price<0.5] yes=131,no=132,missing=131
+									131:leaf=-0.0295540225
+									132:leaf=0.0245859157
+							80:leaf=-0.0273949355
+						50:[first_order_time<1543417600] yes=81,no=82,missing=81
+							81:leaf=-0
+							82:leaf=-0.0416963361
+					30:[learn_num<6.98046398] yes=51,no=52,missing=51
+						51:[share<0.0432016365] yes=83,no=84,missing=83
+							83:[model_num<7.1947999] yes=109,no=110,missing=109
+								109:leaf=-0.0166502763
+								110:leaf=0.0198529139
+							84:[main_home2<111.826927] yes=111,no=112,missing=111
+								111:leaf=0.0437206663
+								112:leaf=0.00544219976
+						52:[progress_bar<2.5] yes=85,no=86,missing=85
+							85:leaf=0.00564412912
+							86:leaf=-0.0328604653
+			10:[distance_day<403.5] yes=17,no=18,missing=17
+				17:[distance_day<171.5] yes=31,no=32,missing=31
+					31:[login_diff_time<1.25] yes=53,no=54,missing=53
+						53:leaf=-0.0367649049
+						54:leaf=0.00559066283
+					32:leaf=-0.048231598
+				18:leaf=0.0165284369
+booster[2]:
+0:[coupon<0.0102530262] yes=1,no=2,missing=1
+	1:leaf=-0.0471867323
+	2:[distance_day<31.7562408] yes=3,no=4,missing=3
+		3:[login_day<5.9700284] yes=5,no=6,missing=5
+			5:[login_time<5.16272736] yes=9,no=10,missing=9
+				9:[first_order_time<1546751104] yes=17,no=18,missing=17
+					17:leaf=-0
+					18:leaf=-0.0368281864
+				10:[login_diff_time<1.19741988] yes=19,no=20,missing=19
+					19:[first_order_time<1556673920] yes=31,no=32,missing=31
+						31:[learn_num<7.51781654] yes=53,no=54,missing=53
+							53:leaf=0.0463547744
+							54:leaf=0.00970283058
+						32:leaf=-0
+					20:[first_order_time<1551024128] yes=33,no=34,missing=33
+						33:[main_home<29.3513527] yes=55,no=56,missing=55
+							55:[login_diff_time<2.03363204] yes=85,no=86,missing=85
+								85:leaf=-0.0322552621
+								86:leaf=0.019409148
+							56:[evaulationcenter<3.5] yes=87,no=88,missing=87
+								87:[age_month<39.5] yes=113,no=114,missing=113
+									113:leaf=-0
+									114:[model_num<17.8653183] yes=133,no=134,missing=133
+										133:leaf=0.0430272743
+										134:leaf=0.0161187109
+								88:[main_home2<48.5] yes=115,no=116,missing=115
+									115:leaf=-0.027023105
+									116:leaf=0.0260121766
+						34:[schoolreportpage<2.4604454] yes=57,no=58,missing=57
+							57:leaf=-0.034548983
+							58:leaf=0.00557698496
+			6:[coupon<1.00485861] yes=11,no=12,missing=11
+				11:[learn_num<4.95635557] yes=21,no=22,missing=21
+					21:[video_read<17] yes=35,no=36,missing=35
+						35:leaf=-0.0329035819
+						36:[course_tab<3.5] yes=59,no=60,missing=59
+							59:[chapter_module<1.5] yes=89,no=90,missing=89
+								89:leaf=0.019409148
+								90:[evaulationcenter<1.5] yes=117,no=118,missing=117
+									117:leaf=-0.0322552621
+									118:leaf=-0
+							60:[chinese_subscribe_num<0.262108922] yes=91,no=92,missing=91
+								91:leaf=-0
+								92:leaf=0.0374349244
+					22:[login_diff_time<0.845000029] yes=37,no=38,missing=37
+						37:[course_tab<50] yes=61,no=62,missing=61
+							61:leaf=-0.0195260998
+							62:leaf=0.0271517877
+						38:[distance_day<23.5] yes=63,no=64,missing=63
+							63:[course_order_num<1.5] yes=93,no=94,missing=93
+								93:[course_tab<3.5] yes=119,no=120,missing=119
+									119:leaf=-0.00970282778
+									120:leaf=-0.0452460833
+								94:leaf=-0.00447379518
+							64:leaf=6.57914425e-05
+				12:[course_order_num<0.0625953451] yes=23,no=24,missing=23
+					23:[learn_num<4.5] yes=39,no=40,missing=39
+						39:[coupon<2.5] yes=65,no=66,missing=65
+							65:leaf=-0.000292093231
+							66:leaf=0.0335404649
+						40:[main_home2<105] yes=67,no=68,missing=67
+							67:leaf=-0.0325624458
+							68:[main_home2<169] yes=95,no=96,missing=95
+								95:leaf=0.0219783857
+								96:leaf=-0.00581304217
+					24:[coupon_visit<7.5] yes=41,no=42,missing=41
+						41:[progress_bar<803] yes=69,no=70,missing=69
+							69:[main_home2<49.368782] yes=97,no=98,missing=97
+								97:leaf=0.015575801
+								98:leaf=0.0443765484
+							70:leaf=0.00496069854
+						42:leaf=-0.00533640245
+		4:[distance_day<127.5] yes=7,no=8,missing=7
+			7:[course_order_num<0.00828810781] yes=13,no=14,missing=13
+				13:[first_order_price<1.48981619] yes=25,no=26,missing=25
+					25:[login_diff_time<8.63000011] yes=43,no=44,missing=43
+						43:[login_diff_time<0.799924493] yes=71,no=72,missing=71
+							71:[distance_day<65.5] yes=99,no=100,missing=99
+								99:[ppt<7.5] yes=121,no=122,missing=121
+									121:leaf=-0.0239131413
+									122:leaf=0.0296932366
+								100:leaf=-0.037702553
+							72:[answer_task<30.5] yes=101,no=102,missing=101
+								101:[coupon<1.24749708] yes=123,no=124,missing=123
+									123:leaf=-0.0417389162
+									124:[login_diff_time<0.814999998] yes=135,no=136,missing=135
+										135:leaf=0.00580893271
+										136:leaf=-0.0319032632
+								102:[first_order_time<1543717760] yes=125,no=126,missing=125
+									125:leaf=0.0168531481
+									126:[first_order_time<1548743936] yes=137,no=138,missing=137
+										137:leaf=-0.0345571563
+										138:leaf=-0.00495879911
+						44:leaf=0.0111426851
+					26:[task<30.5] yes=45,no=46,missing=45
+						45:[login_day<4.74490833] yes=73,no=74,missing=73
+							73:[task<9.65328598] yes=103,no=104,missing=103
+								103:[distance_day<108] yes=127,no=128,missing=127
+									127:leaf=-0.0308336355
+									128:leaf=-0
+								104:[camp_num<1.65741253] yes=129,no=130,missing=129
+									129:leaf=0.0335313343
+									130:leaf=-0.00471959775
+							74:[mainpage<10.5] yes=105,no=106,missing=105
+								105:leaf=-0.0412146635
+								106:leaf=-0.00408207485
+						46:[mainpage<2.95737267] yes=75,no=76,missing=75
+							75:leaf=-0.005337351
+							76:leaf=0.0324358717
+				14:[study_num<0.0105383378] yes=27,no=28,missing=27
+					27:[coupon_visit<0.5] yes=47,no=48,missing=47
+						47:[video_read<53.8289642] yes=77,no=78,missing=77
+							77:[distance_day<62] yes=107,no=108,missing=107
+								107:leaf=0.0344813876
+								108:[first_order_price<0.5] yes=131,no=132,missing=131
+									131:leaf=-0.0291224364
+									132:leaf=0.024183644
+							78:leaf=-0.027023105
+						48:[first_order_time<1543417600] yes=79,no=80,missing=79
+							79:leaf=-0
+							80:leaf=-0.0408551209
+					28:[learn_num<6.98046398] yes=49,no=50,missing=49
+						49:[share<0.0432016365] yes=81,no=82,missing=81
+							81:[login_time<23.5] yes=109,no=110,missing=109
+								109:leaf=0.0196166616
+								110:leaf=-0.0164849553
+							82:[main_home2<111.826927] yes=111,no=112,missing=111
+								111:leaf=0.0427627712
+								112:leaf=0.00536670722
+						50:[progress_bar<2.5] yes=83,no=84,missing=83
+							83:leaf=0.0055657113
+							84:leaf=-0.0323289968
+			8:[distance_day<403.5] yes=15,no=16,missing=15
+				15:[distance_day<171.5] yes=29,no=30,missing=29
+					29:[login_diff_time<1.25] yes=51,no=52,missing=51
+						51:leaf=-0.0360292979
+						52:leaf=0.00551302545
+					30:leaf=-0.0471231453
+				16:leaf=0.016300289
+booster[3]:
+0:[coupon<0.0102530262] yes=1,no=2,missing=1
+	1:[age_month<916] yes=3,no=4,missing=3
+		3:leaf=-0.0461485349
+		4:leaf=-0.0151296258
+	2:[distance_day<31.7562408] yes=5,no=6,missing=5
+		5:[login_day<5.9700284] yes=7,no=8,missing=7
+			7:[login_time<5.16272736] yes=11,no=12,missing=11
+				11:[first_order_time<1546751104] yes=19,no=20,missing=19
+					19:leaf=-0
+					20:leaf=-0.0361727886
+				12:[login_diff_time<1.19741988] yes=21,no=22,missing=21
+					21:[first_order_time<1556673920] yes=33,no=34,missing=33
+						33:[learn_num<7.51781654] yes=55,no=56,missing=55
+							55:leaf=0.0453416109
+							56:leaf=0.00955799036
+						34:leaf=-0
+					22:[first_order_time<1551024128] yes=35,no=36,missing=35
+						35:[main_home<29.3513527] yes=57,no=58,missing=57
+							57:[login_diff_time<2.03363204] yes=87,no=88,missing=87
+								87:leaf=-0.0317462347
+								88:leaf=0.0191236194
+							58:[evaulationcenter<3.5] yes=89,no=90,missing=89
+								89:[age_month<39.5] yes=113,no=114,missing=113
+									113:leaf=-0
+									114:[model_num<17.8653183] yes=133,no=134,missing=133
+										133:leaf=0.0421009436
+										134:leaf=0.0158536341
+								90:[main_home2<48.5] yes=115,no=116,missing=115
+									115:leaf=-0.0266618021
+									116:leaf=0.0255775191
+						36:[video_read<30] yes=59,no=60,missing=59
+							59:leaf=-0.0340230986
+							60:leaf=0.00558816642
+			8:[coupon<1.00485861] yes=13,no=14,missing=13
+				13:[learn_num<4.95635557] yes=23,no=24,missing=23
+					23:[video_read<17] yes=37,no=38,missing=37
+						37:leaf=-0.0322900116
+						38:[course_tab<3.5] yes=61,no=62,missing=61
+							61:[chapter_module<1.5] yes=91,no=92,missing=91
+								91:leaf=0.0191236194
+								92:[evaulationcenter<1.5] yes=117,no=118,missing=117
+									117:leaf=-0.0317462347
+									118:leaf=-0
+							62:[chinese_subscribe_num<0.262108922] yes=93,no=94,missing=93
+								93:leaf=-0
+								94:leaf=0.036759004
+					24:[login_diff_time<0.845000029] yes=39,no=40,missing=39
+						39:[first_order_time<1551746304] yes=63,no=64,missing=63
+							63:leaf=0.0269146543
+							64:leaf=-0.0193541683
+						40:[course_order_num<1.5] yes=65,no=66,missing=65
+							65:[distance_day<23.5] yes=95,no=96,missing=95
+								95:[course_tab<3.5] yes=119,no=120,missing=119
+									119:leaf=-0.00955799036
+									120:leaf=-0.0442859679
+								96:leaf=-0.0044463668
+							66:leaf=0.000104680737
+				14:[chinese_subscribe_num<0.201834872] yes=25,no=26,missing=25
+					25:[age_month<62.5] yes=41,no=42,missing=41
+						41:[chapter_module<16.5] yes=67,no=68,missing=67
+							67:[chapter_module<7.5] yes=97,no=98,missing=97
+								97:leaf=0.018791629
+								98:leaf=-0.0270740725
+							68:leaf=0.030199334
+						42:[lightcoursetab<1.96380496] yes=69,no=70,missing=69
+							69:leaf=-0.00464351662
+							70:leaf=-0.0309879817
+					26:[ppt<10.4661074] yes=43,no=44,missing=43
+						43:leaf=-0.00809852593
+						44:[model_num<6.44509125] yes=71,no=72,missing=71
+							71:leaf=-0.000308475719
+							72:leaf=0.0413937569
+		6:[distance_day<127.5] yes=9,no=10,missing=9
+			9:[course_order_num<0.00828810781] yes=15,no=16,missing=15
+				15:[first_order_price<1.48981619] yes=27,no=28,missing=27
+					27:[login_diff_time<8.63000011] yes=45,no=46,missing=45
+						45:[login_diff_time<0.799924493] yes=73,no=74,missing=73
+							73:[distance_day<65.5] yes=99,no=100,missing=99
+								99:[ppt<7.5] yes=121,no=122,missing=121
+									121:leaf=-0.0235295687
+									122:leaf=0.0291591343
+								100:leaf=-0.0369521081
+							74:[answer_task<30.5] yes=101,no=102,missing=101
+								101:[coupon<1.24749708] yes=123,no=124,missing=123
+									123:leaf=-0.0408043824
+									124:[answer_task<19.5] yes=135,no=136,missing=135
+										135:leaf=-0.031283401
+										136:leaf=0.00604281016
+								102:[model_num<10.4032497] yes=125,no=126,missing=125
+									125:[first_order_time<1544525824] yes=137,no=138,missing=137
+										137:leaf=-0.00496322149
+										138:leaf=-0.0340452865
+									126:leaf=0.0168101881
+						46:leaf=0.0109510701
+					28:[task<30.5] yes=47,no=48,missing=47
+						47:[login_day<4.74490833] yes=75,no=76,missing=75
+							75:[task<9.65328598] yes=103,no=104,missing=103
+								103:[distance_day<108] yes=127,no=128,missing=127
+									127:leaf=-0.0303669181
+									128:leaf=-0
+								104:[camp_num<1.65741253] yes=129,no=130,missing=129
+									129:leaf=0.0329824425
+									130:leaf=-0.00464445818
+							76:[mainpage<10.5] yes=105,no=106,missing=105
+								105:leaf=-0.04040372
+								106:leaf=-0.00401730649
+						48:[mainpage<2.95737267] yes=77,no=78,missing=77
+							77:leaf=-0.00526337652
+							78:leaf=0.0319202207
+				16:[study_num<0.0105383378] yes=29,no=30,missing=29
+					29:[coupon_visit<0.5] yes=49,no=50,missing=49
+						49:[video_read<53.8289642] yes=79,no=80,missing=79
+							79:[distance_day<62] yes=107,no=108,missing=107
+								107:leaf=0.033902999
+								108:[first_order_price<0.5] yes=131,no=132,missing=131
+									131:leaf=-0.0287045371
+									132:leaf=0.0237926245
+							80:leaf=-0.0266618021
+						50:[first_order_time<1543417600] yes=81,no=82,missing=81
+							81:leaf=-0
+							82:leaf=-0.0400591679
+					30:[learn_num<6.98046398] yes=51,no=52,missing=51
+						51:[share<0.0432016365] yes=83,no=84,missing=83
+							83:[model_num<7.1947999] yes=109,no=110,missing=109
+								109:leaf=-0.0163931698
+								110:leaf=0.0194477458
+							84:[main_home<127.697739] yes=111,no=112,missing=111
+								111:leaf=0.0418731198
+								112:leaf=0.00521194283
+						52:[progress_bar<2.5] yes=85,no=86,missing=85
+							85:leaf=0.00548843108
+							86:leaf=-0.0318172947
+			10:[distance_day<403.5] yes=17,no=18,missing=17
+				17:[distance_day<171.5] yes=31,no=32,missing=31
+					31:[login_diff_time<1.25] yes=53,no=54,missing=53
+						53:leaf=-0.0353274457
+						54:leaf=0.00543651124
+					32:leaf=-0.0460900031
+				18:leaf=0.0160764996
+booster[4]:
+0:[coupon<0.0102530262] yes=1,no=2,missing=1
+	1:[age_month<916] yes=3,no=4,missing=3
+		3:leaf=-0.045171719
+		4:leaf=-0.0149274068
+	2:[distance_day<31.7562408] yes=5,no=6,missing=5
+		5:[login_day<5.9700284] yes=7,no=8,missing=7
+			7:[login_time<5.16272736] yes=11,no=12,missing=11
+				11:[first_order_time<1546751104] yes=19,no=20,missing=19
+					19:leaf=-0
+					20:leaf=-0.0355465673
+				12:[login_diff_time<1.19741988] yes=21,no=22,missing=21
+					21:[first_order_time<1556673920] yes=33,no=34,missing=33
+						33:[learn_num<7.51781654] yes=55,no=56,missing=55
+							55:leaf=0.0443935916
+							56:leaf=0.00941556785
+						34:leaf=-0
+					22:[first_order_time<1551024128] yes=35,no=36,missing=35
+						35:[main_home<29.3513527] yes=57,no=58,missing=57
+							57:[login_diff_time<2.03363204] yes=87,no=88,missing=87
+								87:leaf=-0.0312556885
+								88:leaf=0.0188443717
+							58:[evaulationcenter<3.5] yes=89,no=90,missing=89
+								89:[age_month<39.5] yes=115,no=116,missing=115
+									115:leaf=-0
+									116:[model_num<17.8653183] yes=135,no=136,missing=135
+										135:leaf=0.0412280113
+										136:leaf=0.0155942207
+								90:[main_home2<48.5] yes=117,no=118,missing=117
+									117:leaf=-0.0263105761
+									118:leaf=0.0251557883
+						36:[schoolreportpage<2.4604454] yes=59,no=60,missing=59
+							59:leaf=-0.033476796
+							60:leaf=0.00553247007
+			8:[coupon<1.00485861] yes=13,no=14,missing=13
+				13:[learn_num<4.95635557] yes=23,no=24,missing=23
+					23:[video_read<17] yes=37,no=38,missing=37
+						37:leaf=-0.0317006856
+						38:[course_tab<3.5] yes=61,no=62,missing=61
+							61:[chapter_module<1.5] yes=91,no=92,missing=91
+								91:leaf=0.0188443717
+								92:[evaulationcenter<1.5] yes=119,no=120,missing=119
+									119:leaf=-0.0312556885
+									120:leaf=-0
+							62:[chinese_subscribe_num<0.262108922] yes=93,no=94,missing=93
+								93:leaf=-0
+								94:leaf=0.0361139439
+					24:[login_diff_time<0.845000029] yes=39,no=40,missing=39
+						39:[course_tab<50] yes=63,no=64,missing=63
+							63:leaf=-0.0190699678
+							64:leaf=0.0265565794
+						40:[distance_day<23.5] yes=65,no=66,missing=65
+							65:[course_order_num<1.5] yes=95,no=96,missing=95
+								95:[course_tab<3.5] yes=121,no=122,missing=121
+									121:leaf=-0.00941556785
+									122:leaf=-0.0433850698
+								96:leaf=-0.00440432597
+							66:leaf=0.00012931948
+				14:[course_order_num<0.0625953451] yes=25,no=26,missing=25
+					25:[learn_num<4.5] yes=41,no=42,missing=41
+						41:[coupon<2.5] yes=67,no=68,missing=67
+							67:leaf=-0.000681007165
+							68:leaf=0.0325499624
+						42:[main_home2<105] yes=69,no=70,missing=69
+							69:leaf=-0.0318327509
+							70:[first_order_time<1546428928] yes=97,no=98,missing=97
+								97:leaf=-0.00601965329
+								98:leaf=0.021387592
+					26:[coupon_visit<7.5] yes=43,no=44,missing=43
+						43:[finish_num<7.71043968] yes=71,no=72,missing=71
+							71:[main_home2<49.368782] yes=99,no=100,missing=99
+								99:leaf=0.0149064977
+								100:leaf=0.0428192243
+							72:leaf=0.00439659785
+						44:leaf=-0.00518248836
+		6:[distance_day<127.5] yes=9,no=10,missing=9
+			9:[course_order_num<0.00828810781] yes=15,no=16,missing=15
+				15:[first_order_price<1.48981619] yes=27,no=28,missing=27
+					27:[login_diff_time<8.63000011] yes=45,no=46,missing=45
+						45:[study_num<0.233126417] yes=73,no=74,missing=73
+							73:[course_tab<50.5] yes=101,no=102,missing=101
+								101:[北京<1] yes=123,no=124,missing=123
+									123:[login_diff_time<0.799924493] yes=137,no=138,missing=137
+										137:leaf=-0.0253054183
+										138:leaf=-0.0404346995
+									124:leaf=-0.0082411794
+								102:leaf=-0.00943607278
+							74:[login_time<52.5] yes=103,no=104,missing=103
+								103:[chapter_module<4.5] yes=125,no=126,missing=125
+									125:[distance_day<61.5] yes=139,no=140,missing=139
+										139:leaf=-0.018267639
+										140:leaf=0.00690232171
+									126:leaf=-0.040659491
+								104:[first_order_time<1551326720] yes=127,no=128,missing=127
+									127:[slide_subscribe<6.06749439] yes=141,no=142,missing=141
+										141:leaf=0.0317289494
+										142:leaf=-0.0047905785
+									128:[login_diff_time<0.789999962] yes=143,no=144,missing=143
+										143:leaf=0.000156620154
+										144:leaf=-0.0309135411
+						46:leaf=0.0107631953
+					28:[task<30.5] yes=47,no=48,missing=47
+						47:[login_day<4.74490833] yes=75,no=76,missing=75
+							75:[task<9.65328598] yes=105,no=106,missing=105
+								105:[distance_day<108] yes=129,no=130,missing=129
+									129:leaf=-0.0299160425
+									130:leaf=-0
+								106:[camp_num<1.65741253] yes=131,no=132,missing=131
+									131:leaf=0.0324546956
+									132:leaf=-0.00457054563
+							76:[mainpage<10.5] yes=107,no=108,missing=107
+								107:leaf=-0.039635811
+								108:leaf=-0.00395358587
+						48:[mainpage<2.95737267] yes=77,no=78,missing=77
+							77:leaf=-0.005190467
+							78:leaf=0.0314234346
+				16:[study_num<0.0105383378] yes=29,no=30,missing=29
+					29:[coupon_visit<0.5] yes=49,no=50,missing=49
+						49:[video_read<53.8289642] yes=79,no=80,missing=79
+							79:[distance_day<62] yes=109,no=110,missing=109
+								109:leaf=0.0333478637
+								110:[first_order_price<0.5] yes=133,no=134,missing=133
+									133:leaf=-0.0282996576
+									134:leaf=0.0234123357
+							80:leaf=-0.0263105761
+						50:[first_order_time<1543417600] yes=81,no=82,missing=81
+							81:leaf=-0
+							82:leaf=-0.0393048972
+					30:[learn_num<6.98046398] yes=51,no=52,missing=51
+						51:[share<0.0432016365] yes=83,no=84,missing=83
+							83:[login_time<23.5] yes=111,no=112,missing=111
+								111:leaf=0.0192192644
+								112:leaf=-0.0162314437
+							84:[main_home2<111.826927] yes=113,no=114,missing=113
+								113:leaf=0.0410250686
+								114:leaf=0.0051192469
+						52:[progress_bar<2.5] yes=85,no=86,missing=85
+							85:leaf=0.00541227078
+							86:leaf=-0.0313242264
+			10:[distance_day<403.5] yes=17,no=18,missing=17
+				17:[distance_day<171.5] yes=31,no=32,missing=31
+					31:[login_diff_time<1.25] yes=53,no=54,missing=53
+						53:leaf=-0.0346568786
+						54:leaf=0.00536110485
+					32:leaf=-0.0451249555
+				18:leaf=0.015856931
+booster[5]:
+0:[coupon<0.0102530262] yes=1,no=2,missing=1
+	1:leaf=-0.0442503616
+	2:[distance_day<31.7562408] yes=3,no=4,missing=3
+		3:[login_day<5.9700284] yes=5,no=6,missing=5
+			5:[login_time<5.16272736] yes=9,no=10,missing=9
+				9:[first_order_time<1546751104] yes=17,no=18,missing=17
+					17:leaf=-0
+					18:leaf=-0.0349475481
+				10:[login_diff_time<1.19741988] yes=19,no=20,missing=19
+					19:[first_order_time<1556673920] yes=31,no=32,missing=31
+						31:[learn_num<7.51781654] yes=53,no=54,missing=53
+							53:leaf=0.0435047448
+							54:leaf=0.00927552115
+						32:leaf=-0
+					20:[study_num<0.0951109156] yes=33,no=34,missing=33
+						33:[video_read<36.5] yes=55,no=56,missing=55
+							55:[first_order_price<0.504999995] yes=85,no=86,missing=85
+								85:[first_order_time<1544557184] yes=113,no=114,missing=113
+									113:leaf=0.00337102241
+									114:leaf=-0.0357327126
+								86:[login_diff_time<1.625] yes=115,no=116,missing=115
+									115:leaf=0.0153214475
+									116:leaf=0.00351216155
+							56:[answer_task<30.5] yes=87,no=88,missing=87
+								87:leaf=0.0366409011
+								88:leaf=0.00393608771
+						34:[first_order_time<1551031040] yes=57,no=58,missing=57
+							57:[evaulationcenter<5.5] yes=89,no=90,missing=89
+								89:leaf=0.0414592214
+								90:leaf=0.00946694613
+							58:leaf=-0.00499696285
+			6:[coupon<1.00485861] yes=11,no=12,missing=11
+				11:[learn_num<4.95635557] yes=21,no=22,missing=21
+					21:[video_read<17] yes=35,no=36,missing=35
+						35:leaf=-0.0311340485
+						36:[course_tab<3.5] yes=59,no=60,missing=59
+							59:[chapter_module<1.5] yes=91,no=92,missing=91
+								91:leaf=0.0185711775
+								92:[evaulationcenter<1.5] yes=117,no=118,missing=117
+									117:leaf=-0.0307826102
+									118:leaf=-0
+							60:[chinese_subscribe_num<0.262108922] yes=93,no=94,missing=93
+								93:leaf=-0
+								94:leaf=0.0354976058
+					22:[login_diff_time<0.845000029] yes=37,no=38,missing=37
+						37:[first_order_time<1551746304] yes=61,no=62,missing=61
+							61:leaf=0.026334038
+							62:leaf=-0.0189069081
+						38:[course_order_num<1.5] yes=63,no=64,missing=63
+							63:[distance_day<23.5] yes=95,no=96,missing=95
+								95:[course_tab<3.5] yes=119,no=120,missing=119
+									119:leaf=-0.00927552115
+									120:leaf=-0.042538166
+								96:leaf=-0.00437773857
+							64:leaf=0.000166899365
+				12:[chinese_subscribe_num<0.201834872] yes=23,no=24,missing=23
+					23:[age_month<62.5] yes=39,no=40,missing=39
+						39:[chapter_module<16.5] yes=65,no=66,missing=65
+							65:[first_order_time<1544191488] yes=97,no=98,missing=97
+								97:leaf=0.0180960074
+								98:leaf=-0.0265768208
+							66:leaf=0.029247541
+						40:[lightcoursetab<1.96380496] yes=67,no=68,missing=67
+							67:leaf=-0.00469497172
+							68:leaf=-0.0303765237
+					24:[ppt<10.4661074] yes=41,no=42,missing=41
+						41:leaf=-0.00797830056
+						42:[model_num<6.44509125] yes=69,no=70,missing=69
+							69:leaf=-0.000425035338
+							70:leaf=0.0399702936
+		4:[distance_day<127.5] yes=7,no=8,missing=7
+			7:[course_order_num<0.00828810781] yes=13,no=14,missing=13
+				13:[first_order_price<1.48981619] yes=25,no=26,missing=25
+					25:[login_diff_time<8.63000011] yes=43,no=44,missing=43
+						43:[login_diff_time<0.799924493] yes=71,no=72,missing=71
+							71:[distance_day<65.5] yes=99,no=100,missing=99
+								99:[ppt<7.5] yes=121,no=122,missing=121
+									121:leaf=-0.0228233226
+									122:leaf=0.028797647
+								100:leaf=-0.035788212
+							72:[answer_task<30.5] yes=101,no=102,missing=101
+								101:[coupon<1.24749708] yes=123,no=124,missing=123
+									123:leaf=-0.0391506292
+									124:[progress_bar<3] yes=133,no=134,missing=133
+										133:leaf=-0.0300299656
+										134:leaf=0.00622317335
+								102:[first_order_time<1543717760] yes=125,no=126,missing=125
+									125:leaf=0.0168720838
+									126:[share<11] yes=135,no=136,missing=135
+										135:leaf=-0.0330086462
+										136:leaf=-0.00442075497
+						44:leaf=0.0105789592
+					26:[task<30.5] yes=45,no=46,missing=45
+						45:[login_day<4.74490833] yes=73,no=74,missing=73
+							73:[task<9.65328598] yes=103,no=104,missing=103
+								103:[distance_day<108] yes=127,no=128,missing=127
+									127:leaf=-0.0294801798
+									128:leaf=-0
+								104:[camp_num<1.65741253] yes=129,no=130,missing=129
+									129:leaf=0.0319468342
+									130:leaf=-0.00449784193
+							74:[mainpage<10.5] yes=105,no=106,missing=105
+								105:leaf=-0.0389075391
+								106:leaf=-0.00389089435
+						46:[mainpage<2.95737267] yes=75,no=76,missing=75
+							75:leaf=-0.00511860522
+							76:leaf=0.0309444554
+				14:[study_num<0.0105383378] yes=27,no=28,missing=27
+					27:[coupon_visit<0.5] yes=47,no=48,missing=47
+						47:[video_read<53.8289642] yes=77,no=78,missing=77
+							77:[distance_day<62] yes=107,no=108,missing=107
+								107:leaf=0.0328145586
+								108:[first_order_price<0.5] yes=131,no=132,missing=131
+									131:leaf=-0.0279071759
+									132:leaf=0.0230422821
+							78:leaf=-0.0259689968
+						48:[first_order_time<1543417600] yes=79,no=80,missing=79
+							79:leaf=-0
+							80:leaf=-0.0385890715
+					28:[learn_num<6.98046398] yes=49,no=50,missing=49
+						49:[share<0.0432016365] yes=81,no=82,missing=81
+							81:[model_num<7.1947999] yes=109,no=110,missing=109
+								109:leaf=-0.016142508
+								110:leaf=0.0190571938
+							82:[main_home<127.697739] yes=111,no=112,missing=111
+								111:leaf=0.040232148
+								112:leaf=0.00497062271
+						50:[progress_bar<2.5] yes=83,no=84,missing=83
+							83:leaf=0.00533721177
+							84:leaf=-0.0308487564
+			8:[distance_day<403.5] yes=15,no=16,missing=15
+				15:[distance_day<171.5] yes=29,no=30,missing=29
+					29:[login_diff_time<1.25] yes=51,no=52,missing=51
+						51:leaf=-0.0340153575
+						52:leaf=0.00528678671
+					30:leaf=-0.0442216992
+				16:leaf=0.0156414639
+booster[6]:
+0:[coupon<0.0102530262] yes=1,no=2,missing=1
+	1:[age_month<916] yes=3,no=4,missing=3
+		3:leaf=-0.0434008501
+		4:leaf=-0.0141451424
+	2:[distance_day<31.7562408] yes=5,no=6,missing=5
+		5:[login_day<5.9700284] yes=7,no=8,missing=7
+			7:[login_time<5.16272736] yes=11,no=12,missing=11
+				11:[first_order_time<1546751104] yes=19,no=20,missing=19
+					19:leaf=-0
+					20:leaf=-0.0343739167
+				12:[login_diff_time<1.19741988] yes=21,no=22,missing=21
+					21:[first_order_time<1556673920] yes=33,no=34,missing=33
+						33:[learn_num<7.51781654] yes=55,no=56,missing=55
+							55:leaf=0.0426698066
+							56:leaf=0.00913778692
+						34:leaf=-0
+					22:[study_num<0.0951109156] yes=35,no=36,missing=35
+						35:[video_read<36.5] yes=57,no=58,missing=57
+							57:[first_order_price<0.504999995] yes=87,no=88,missing=87
+								87:[first_order_time<1544557184] yes=115,no=116,missing=115
+									115:leaf=0.00331779616
+									116:leaf=-0.0350476503
+								88:[login_diff_time<1.625] yes=117,no=118,missing=117
+									117:leaf=0.0151163042
+									118:leaf=0.00346405176
+							58:[age_month<78] yes=89,no=90,missing=89
+								89:leaf=0.0360264853
+								90:leaf=0.0038486172
+						36:[age_month<42] yes=59,no=60,missing=59
+							59:leaf=-0.00523249945
+							60:[evaulationcenter<6.99107552] yes=91,no=92,missing=91
+								91:leaf=0.0408218354
+								92:leaf=0.00480642496
+			8:[coupon<1.00485861] yes=13,no=14,missing=13
+				13:[learn_num<4.95635557] yes=23,no=24,missing=23
+					23:[video_read<17] yes=37,no=38,missing=37
+						37:leaf=-0.0305886455
+						38:[course_tab<3.5] yes=61,no=62,missing=61
+							61:[chapter_module<1.5] yes=93,no=94,missing=93
+								93:leaf=0.0183038302
+								94:[evaulationcenter<1.5] yes=119,no=120,missing=119
+									119:leaf=-0.0303260218
+									120:leaf=-0
+							62:[chinese_subscribe_num<0.262108922] yes=95,no=96,missing=95
+								95:leaf=-0
+								96:leaf=0.0349080451
+					24:[login_diff_time<0.845000029] yes=39,no=40,missing=39
+						39:[first_order_time<1551746304] yes=63,no=64,missing=63
+							63:leaf=0.0259920862
+							64:leaf=-0.0186324939
+						40:[distance_day<23.5] yes=65,no=66,missing=65
+							65:[course_order_num<1.5] yes=97,no=98,missing=97
+								97:[course_tab<3.5] yes=121,no=122,missing=121
+									121:leaf=-0.00913778692
+									122:leaf=-0.0417406112
+								98:leaf=-0.00433697971
+							66:leaf=0.000190658568
+				14:[course_order_num<0.0625953451] yes=25,no=26,missing=25
+					25:[learn_num<4.5] yes=41,no=42,missing=41
+						41:[coupon<2.5] yes=67,no=68,missing=67
+							67:leaf=-0.000937715173
+							68:leaf=0.0316340551
+						42:[main_home2<105] yes=69,no=70,missing=69
+							69:leaf=-0.0311410706
+							70:[finish_num<5.92010212] yes=99,no=100,missing=99
+								99:leaf=-0.00618632836
+								100:leaf=0.0207116473
+					26:[coupon_visit<7.5] yes=43,no=44,missing=43
+						43:[click_notunlocked<10.9035625] yes=71,no=72,missing=71
+							71:leaf=0.0386968367
+							72:leaf=0.00390769728
+						44:leaf=-0.00503107719
+		6:[distance_day<127.5] yes=9,no=10,missing=9
+			9:[course_order_num<0.00828810781] yes=15,no=16,missing=15
+				15:[first_order_price<1.48981619] yes=27,no=28,missing=27
+					27:[login_diff_time<8.63000011] yes=45,no=46,missing=45
+						45:[study_num<0.233126417] yes=73,no=74,missing=73
+							73:[course_tab<50.5] yes=101,no=102,missing=101
+								101:[北京<1] yes=123,no=124,missing=123
+									123:[login_diff_time<0.799924493] yes=135,no=136,missing=135
+										135:leaf=-0.0243240874
+										136:leaf=-0.0388548784
+									124:leaf=-0.00757013401
+								102:leaf=-0.00878824014
+							74:[login_time<52.5] yes=103,no=104,missing=103
+								103:[chapter_module<4.5] yes=125,no=126,missing=125
+									125:[chinese_subscribe_num<0.5] yes=137,no=138,missing=137
+										137:leaf=-0.0177317932
+										138:leaf=0.00718943123
+									126:leaf=-0.0392280892
+								104:[first_order_time<1551326720] yes=127,no=128,missing=127
+									127:[slide_subscribe<6.06749439] yes=139,no=140,missing=139
+										139:leaf=0.0312858298
+										140:leaf=-0.0046210303
+									128:[login_diff_time<0.789999962] yes=141,no=142,missing=141
+										141:leaf=0.000174138113
+										142:leaf=-0.0299149547
+						46:leaf=0.010398265
+					28:[task<30.5] yes=47,no=48,missing=47
+						47:[login_day<4.74490833] yes=75,no=76,missing=75
+							75:[task<9.65328598] yes=105,no=106,missing=105
+								105:[distance_day<108] yes=129,no=130,missing=129
+									129:leaf=-0.0290585514
+									130:leaf=-0
+								106:[camp_num<1.65741253] yes=131,no=132,missing=131
+									131:leaf=0.0314577036
+									132:leaf=-0.00442631869
+							76:[mainpage<10.5] yes=107,no=108,missing=107
+								107:leaf=-0.0382158868
+								108:leaf=-0.00382921449
+						48:[mainpage<2.95737267] yes=77,no=78,missing=77
+							77:leaf=-0.00504777534
+							78:leaf=0.0304822866
+				16:[study_num<0.0105383378] yes=29,no=30,missing=29
+					29:[coupon_visit<0.5] yes=49,no=50,missing=49
+						49:[video_read<53.8289642] yes=79,no=80,missing=79
+							79:[distance_day<62] yes=109,no=110,missing=109
+								109:leaf=0.0323017538
+								110:[first_order_price<0.5] yes=133,no=134,missing=133
+									133:leaf=-0.027526496
+									134:leaf=0.0226819981
+							80:leaf=-0.0256366432
+						50:[first_order_time<1543417600] yes=81,no=82,missing=81
+							81:leaf=-0
+							82:leaf=-0.0379087701
+					30:[learn_num<6.98046398] yes=51,no=52,missing=51
+						51:[share<0.0432016365] yes=83,no=84,missing=83
+							83:[login_time<23.5] yes=111,no=112,missing=111
+								111:leaf=0.0188360792
+								112:leaf=-0.0159842689
+							84:[main_home2<111.826927] yes=113,no=114,missing=113
+								113:leaf=0.0394730866
+								114:leaf=0.00488328142
+						52:[progress_bar<2.5] yes=85,no=86,missing=85
+							85:leaf=0.00526323635
+							86:leaf=-0.0303899106
+			10:[distance_day<403.5] yes=17,no=18,missing=17
+				17:[distance_day<171.5] yes=31,no=32,missing=31
+					31:[login_diff_time<1.25] yes=53,no=54,missing=53
+						53:leaf=-0.0334008448
+						54:leaf=0.00521353958
+					32:leaf=-0.0433746725
+				18:leaf=0.0154299764
+booster[7]:
+0:[coupon<0.0102530262] yes=1,no=2,missing=1
+	1:[distance_day<29.9782524] yes=3,no=4,missing=3
+		3:[camp_num<0.5] yes=7,no=8,missing=7
+			7:[chinese_subscribe_num<0.5] yes=15,no=16,missing=15
+				15:leaf=-0.0369273983
+				16:[login_diff_time<0.805000007] yes=29,no=30,missing=29
+					29:[first_order_time<1552418816] yes=47,no=48,missing=47
+						47:leaf=0.0422388203
+						48:leaf=-0.0123829534
+					30:leaf=-0.0313713253
+			8:[温州<1] yes=17,no=18,missing=17
+				17:[distance_day<28.5] yes=31,no=32,missing=31
+					31:[course_order_num<1.23861897] yes=49,no=50,missing=49
+						49:leaf=-0.0420523174
+						50:[slide_subscribe<2.15345263] yes=75,no=76,missing=75
+							75:leaf=0.0214349683
+							76:leaf=-0.0365553424
+					32:[learn_num<4.5] yes=51,no=52,missing=51
+						51:leaf=-0.00111031288
+						52:leaf=-0.0236555953
+				18:leaf=-0.00526341004
+		4:[age_month<916] yes=9,no=10,missing=9
+			9:[延边朝鲜族自治州<1] yes=19,no=20,missing=19
+				19:leaf=-0.0429434404
+				20:leaf=-0.0154205998
+			10:leaf=-0.0139601398
+	2:[distance_day<31.7562408] yes=5,no=6,missing=5
+		5:[login_day<5.9700284] yes=11,no=12,missing=11
+			11:[login_time<5.16272736] yes=21,no=22,missing=21
+				21:[first_order_time<1546751104] yes=33,no=34,missing=33
+					33:leaf=-0
+					34:leaf=-0.033824034
+				22:[login_diff_time<1.19741988] yes=35,no=36,missing=35
+					35:[first_order_time<1556673920] yes=53,no=54,missing=53
+						53:[learn_num<7.51781654] yes=77,no=78,missing=77
+							77:leaf=0.0418841094
+							78:leaf=0.00900232419
+						54:leaf=-0
+					36:[first_order_time<1551024128] yes=55,no=56,missing=55
+						55:[main_home<29.3513527] yes=79,no=80,missing=79
+							79:[login_diff_time<2.03363204] yes=109,no=110,missing=109
+								109:leaf=-0.0303160548
+								110:leaf=0.0175791588
+							80:[evaulationcenter<3.5] yes=111,no=112,missing=111
+								111:[age_month<43] yes=135,no=136,missing=135
+									135:leaf=0.00928093586
+									136:[model_num<17.8653183] yes=157,no=158,missing=157
+										157:leaf=0.0389633402
+										158:leaf=0.0146221565
+								112:[main_home2<48.5] yes=137,no=138,missing=137
+									137:leaf=-0.0259441622
+									138:leaf=0.0244182907
+						56:[schoolreportpage<2.4604454] yes=81,no=82,missing=81
+							81:leaf=-0.0320343636
+							82:leaf=0.00525636366
+			12:[coupon<1.00485861] yes=23,no=24,missing=23
+				23:[learn_num<4.95635557] yes=37,no=38,missing=37
+					37:[video_read<17] yes=57,no=58,missing=57
+						57:leaf=-0.0300631467
+						58:[course_tab<3.5] yes=83,no=84,missing=83
+							83:[chapter_module<1.5] yes=113,no=114,missing=113
+								113:leaf=0.0180421155
+								114:[evaulationcenter<1.5] yes=139,no=140,missing=139
+									139:leaf=-0.0298850294
+									140:leaf=-0
+							84:[chinese_subscribe_num<0.262108922] yes=115,no=116,missing=115
+								115:leaf=-0
+								116:leaf=0.0343434811
+					38:[login_diff_time<0.845000029] yes=59,no=60,missing=59
+						59:[course_tab<50] yes=85,no=86,missing=85
+							85:leaf=-0.0184759218
+							86:leaf=0.025781095
+						60:[course_order_num<1.5] yes=87,no=88,missing=87
+							87:[distance_day<23.5] yes=117,no=118,missing=117
+								117:[course_tab<3.5] yes=141,no=142,missing=141
+									141:leaf=-0.00900232419
+									142:leaf=-0.0409882851
+								118:leaf=-0.00431120396
+							88:leaf=0.000226972494
+				24:[chinese_subscribe_num<0.201834872] yes=39,no=40,missing=39
+					39:[age_month<62.5] yes=61,no=62,missing=61
+						61:[chapter_module<16.5] yes=89,no=90,missing=89
+							89:[chapter_module<7.5] yes=119,no=120,missing=119
+								119:leaf=0.0174675342
+								120:leaf=-0.0261029042
+							90:leaf=0.0285071526
+						62:[lightcoursetab<1.96380496] yes=91,no=92,missing=91
+							91:leaf=-0.00472824974
+							92:leaf=-0.0298516247
+					40:[ppt<10.4661074] yes=63,no=64,missing=63
+						63:leaf=-0.00782455876
+						64:[model_num<6.44509125] yes=93,no=94,missing=93
+							93:leaf=-0.000519950059
+							94:leaf=0.0386278406
+		6:[distance_day<127.5] yes=13,no=14,missing=13
+			13:[course_order_num<0.00828810781] yes=25,no=26,missing=25
+				25:[first_order_price<1.48981619] yes=41,no=42,missing=41
+					41:[login_diff_time<8.63000011] yes=65,no=66,missing=65
+						65:[study_num<0.233126417] yes=95,no=96,missing=95
+							95:[course_tab<50.5] yes=121,no=122,missing=121
+								121:[北京<1] yes=143,no=144,missing=143
+									143:[login_diff_time<0.799924493] yes=159,no=160,missing=159
+										159:leaf=-0.0238298494
+										160:leaf=-0.0380889401
+									144:leaf=-0.00745976809
+								122:leaf=-0.00864088815
+							96:[task<29.5] yes=123,no=124,missing=123
+								123:[login_diff_time<0.710000038] yes=145,no=146,missing=145
+									145:leaf=0.000460702286
+									146:[first_order_time<1543956352] yes=161,no=162,missing=161
+										161:leaf=-0.00836978573
+										162:leaf=-0.0369983427
+								124:[task<34.863739] yes=147,no=148,missing=147
+									147:leaf=0.0264278743
+									148:leaf=-0.0222095307
+						66:leaf=0.0102210324
+					42:[task<30.5] yes=67,no=68,missing=67
+						67:[login_day<4.74490833] yes=97,no=98,missing=97
+							97:[task<9.65328598] yes=125,no=126,missing=125
+								125:[distance_day<108] yes=149,no=150,missing=149
+									149:leaf=-0.0286504328
+									150:leaf=-0
+								126:[camp_num<1.65741253] yes=151,no=152,missing=151
+									151:leaf=0.0309862252
+									152:leaf=-0.00435596658
+							98:[mainpage<10.5] yes=127,no=128,missing=127
+								127:leaf=-0.0375580862
+								128:leaf=-0.00376852718
+						68:[mainpage<2.95737267] yes=99,no=100,missing=99
+							99:leaf=-0.00497796154
+							100:leaf=0.030036021
+				26:[study_num<0.0105383378] yes=43,no=44,missing=43
+					43:[coupon_visit<0.5] yes=69,no=70,missing=69
+						69:[video_read<53.8289642] yes=101,no=102,missing=101
+							101:[distance_day<62] yes=129,no=130,missing=129
+								129:leaf=0.0318082348
+								130:[first_order_price<0.5] yes=153,no=154,missing=153
+									153:leaf=-0.0271570738
+									154:leaf=0.0223310497
+							102:leaf=-0.0253131445
+						70:[first_order_time<1543417600] yes=103,no=104,missing=103
+							103:leaf=-0
+							104:leaf=-0.0372613519
+					44:[learn_num<6.98046398] yes=71,no=72,missing=71
+						71:[share<0.0432016365] yes=105,no=106,missing=105
+							105:[model_num<7.1947999] yes=131,no=132,missing=131
+								131:leaf=-0.0158980936
+								132:leaf=0.0186804943
+							106:[main_home<127.697739] yes=133,no=134,missing=133
+								133:[launch_time<1.27300501] yes=155,no=156,missing=155
+									155:leaf=0.040238671
+									156:leaf=0.0128772287
+								134:leaf=0.00474037044
+						72:[progress_bar<2.5] yes=107,no=108,missing=107
+							107:leaf=0.00519032683
+							108:leaf=-0.0299467873
+			14:[distance_day<403.5] yes=27,no=28,missing=27
+				27:[distance_day<171.5] yes=45,no=46,missing=45
+					45:[login_diff_time<1.25] yes=73,no=74,missing=73
+						73:leaf=-0.032811489
+						74:leaf=0.00514134718
+					46:leaf=-0.0425789878
+				28:leaf=0.0152223585
+booster[8]:
+0:[coupon<0.0102530262] yes=1,no=2,missing=1
+	1:[distance_day<29.9782524] yes=3,no=4,missing=3
+		3:[camp_num<0.5] yes=7,no=8,missing=7
+			7:[chinese_subscribe_num<0.5] yes=15,no=16,missing=15
+				15:[model_num<14.9015503] yes=29,no=30,missing=29
+					29:leaf=-0.0375494622
+					30:leaf=-0.011918447
+				16:[login_diff_time<0.805000007] yes=31,no=32,missing=31
+					31:[first_order_time<1552418816] yes=51,no=52,missing=51
+						51:leaf=0.0411885567
+						52:leaf=-0.0122267278
+					32:leaf=-0.0309202131
+			8:[温州<1] yes=17,no=18,missing=17
+				17:[course_order_num<1.23861897] yes=33,no=34,missing=33
+					33:[distance_day<28.5] yes=53,no=54,missing=53
+						53:leaf=-0.0413019806
+						54:[main_home<45.0286789] yes=79,no=80,missing=79
+							79:leaf=-0.0235385001
+							80:leaf=-0.000910970499
+					34:[slide_subscribe<2.15345263] yes=55,no=56,missing=55
+						55:leaf=0.0211015772
+						56:leaf=-0.0359707624
+				18:leaf=-0.00518794497
+		4:[age_month<916] yes=9,no=10,missing=9
+			9:[distance_day<436] yes=19,no=20,missing=19
+				19:[延边朝鲜族自治州<1] yes=35,no=36,missing=35
+					35:leaf=-0.0421924889
+					36:leaf=-0.0152148679
+				20:leaf=-0.0151781682
+			10:leaf=-0.0137782842
+	2:[distance_day<31.7562408] yes=5,no=6,missing=5
+		5:[login_day<5.9700284] yes=11,no=12,missing=11
+			11:[login_time<5.16272736] yes=21,no=22,missing=21
+				21:[first_order_time<1546751104] yes=37,no=38,missing=37
+					37:leaf=-0
+					38:leaf=-0.0332963616
+				22:[login_diff_time<1.19741988] yes=39,no=40,missing=39
+					39:[first_order_time<1556673920] yes=57,no=58,missing=57
+						57:[learn_num<7.51781654] yes=81,no=82,missing=81
+							81:leaf=0.0411435217
+							82:leaf=0.00886908174
+						58:leaf=-0
+					40:[study_num<0.0951109156] yes=59,no=60,missing=59
+						59:[video_read<36.5] yes=83,no=84,missing=83
+							83:[first_order_price<0.504999995] yes=115,no=116,missing=115
+								115:[first_order_time<1544557184] yes=143,no=144,missing=143
+									143:leaf=0.00305675319
+									144:leaf=-0.0341161638
+								116:[login_diff_time<1.625] yes=145,no=146,missing=145
+									145:leaf=0.0146888839
+									146:leaf=0.00302546727
+							84:[answer_task<30.5] yes=117,no=118,missing=117
+								117:leaf=0.0349945612
+								118:leaf=0.00328577543
+						60:[first_order_time<1551031040] yes=85,no=86,missing=85
+							85:[evaulationcenter<5.5] yes=119,no=120,missing=119
+								119:leaf=0.0393160619
+								120:leaf=0.00910193007
+							86:leaf=-0.00501050334
+			12:[coupon<1.00485861] yes=23,no=24,missing=23
+				23:[learn_num<4.95635557] yes=41,no=42,missing=41
+					41:[video_read<17] yes=61,no=62,missing=61
+						61:leaf=-0.0295563228
+						62:[course_tab<3.5] yes=87,no=88,missing=87
+							87:[chapter_module<1.5] yes=121,no=122,missing=121
+								121:leaf=0.0177858453
+								122:[evaulationcenter<1.5] yes=147,no=148,missing=147
+									147:leaf=-0.0294587947
+									148:leaf=-0
+							88:[chinese_subscribe_num<0.262108922] yes=123,no=124,missing=123
+								123:leaf=-0
+								124:leaf=0.0338022783
+					42:[login_diff_time<0.845000029] yes=63,no=64,missing=63
+						63:[course_tab<50] yes=89,no=90,missing=89
+							89:leaf=-0.0182107966
+							90:leaf=0.0254541989
+						64:[distance_day<23.5] yes=91,no=92,missing=91
+							91:[course_order_num<1.5] yes=125,no=126,missing=125
+								125:[course_tab<3.5] yes=149,no=150,missing=149
+									149:leaf=-0.00886907801
+									150:leaf=-0.040277496
+								126:leaf=-0.00427167956
+							92:leaf=0.000249881414
+				24:[course_order_num<0.0625953451] yes=43,no=44,missing=43
+					43:[learn_num<4.5] yes=65,no=66,missing=65
+						65:[coupon<2.5] yes=93,no=94,missing=93
+							93:leaf=-0.00128868956
+							94:leaf=0.0307844561
+						66:[main_home2<105] yes=95,no=96,missing=95
+							95:leaf=-0.0304845162
+							96:[first_order_time<1546428928] yes=127,no=128,missing=127
+								127:leaf=-0.00625546649
+								128:leaf=0.0200998839
+					44:[coupon_visit<7.5] yes=67,no=68,missing=67
+						67:[finish_num<7.71043968] yes=97,no=98,missing=97
+							97:[main_home2<49.368782] yes=129,no=130,missing=129
+								129:leaf=0.0133679481
+								130:leaf=0.0401966237
+							98:leaf=0.00333208591
+						68:leaf=-0.00488208234
+		6:[distance_day<98.5] yes=13,no=14,missing=13
+			13:[study_num<0.0105383378] yes=25,no=26,missing=25
+				25:[login_diff_time<0.799924493] yes=45,no=46,missing=45
+					45:[ppt<9.01812935] yes=69,no=70,missing=69
+						69:[click_notunlocked<1.5] yes=99,no=100,missing=99
+							99:leaf=-0.0324448794
+							100:leaf=-0.00310270791
+						70:[task<24] yes=101,no=102,missing=101
+							101:[main_learnpark<0.386920035] yes=131,no=132,missing=131
+								131:leaf=0.0326128155
+								132:leaf=0.00546469958
+							102:leaf=-0.0159189831
+					46:[mainpage<32.5] yes=71,no=72,missing=71
+						71:[coupon_visit<0.683681071] yes=103,no=104,missing=103
+							103:[course_order_num<0.40900746] yes=133,no=134,missing=133
+								133:[camp_num<0.662578821] yes=151,no=152,missing=151
+									151:leaf=0.00522603747
+									152:[age_month<69.5] yes=161,no=162,missing=161
+										161:leaf=-0.0344020836
+										162:leaf=-0.0183272362
+								134:[distance_day<43.5] yes=153,no=154,missing=153
+									153:leaf=0.0242999289
+									154:[ppt<34.5] yes=163,no=164,missing=163
+										163:leaf=0.00911750831
+										164:leaf=-0.0299477708
+							104:[北京<1] yes=135,no=136,missing=135
+								135:[model_num<16.4342003] yes=155,no=156,missing=155
+									155:leaf=-0.041030582
+									156:[age_month<74.5] yes=165,no=166,missing=165
+										165:leaf=-0.00319824181
+										166:leaf=-0.0253603589
+								136:leaf=-0.00379693811
+						72:leaf=0.00630259886
+				26:[learn_num<6.98046398] yes=47,no=48,missing=47
+					47:[course_order_num<0.00828810781] yes=73,no=74,missing=73
+						73:[ppt<28] yes=105,no=106,missing=105
+							105:[camp_num<1.5] yes=137,no=138,missing=137
+								137:[model_num<11.3647861] yes=157,no=158,missing=157
+									157:leaf=-0.0171897095
+									158:leaf=0.0165886246
+								138:leaf=-0.0354820825
+							106:[distance_day<41.5] yes=139,no=140,missing=139
+								139:leaf=0.0313229822
+								140:[main_home<98.5] yes=159,no=160,missing=159
+									159:[coupon_visit<0.671293736] yes=167,no=168,missing=167
+										167:leaf=0.0253441278
+										168:leaf=-0.0145912766
+									160:leaf=-0.0243731141
+						74:[launch_time<2.5] yes=107,no=108,missing=107
+							107:[chapter_module<28.6424141] yes=141,no=142,missing=141
+								141:leaf=0.0375816487
+								142:leaf=0.00308199855
+							108:leaf=-0.00635600323
+					48:[coupon<1.22948074] yes=75,no=76,missing=75
+						75:leaf=-0.0390229374
+						76:[video_play<35.4832497] yes=109,no=110,missing=109
+							109:leaf=-0.0154906763
+							110:leaf=0.0300242044
+			14:[distance_day<403.5] yes=27,no=28,missing=27
+				27:[distance_day<171.5] yes=49,no=50,missing=49
+					49:[course_order_num<0.449642271] yes=77,no=78,missing=77
+						77:[login_diff_time<1.58500004] yes=111,no=112,missing=111
+							111:leaf=-0.0405798554
+							112:leaf=0.00429987116
+						78:[chinese_subscribe_num<0.84434104] yes=113,no=114,missing=113
+							113:leaf=-0.0151761072
+							114:leaf=0.0269886162
+					50:leaf=-0.0418302678
+				28:leaf=0.0150184995
+booster[9]:
+0:[coupon<0.0102530262] yes=1,no=2,missing=1
+	1:[红河哈尼族彝族自治州<1] yes=3,no=4,missing=3
+		3:[age_month<916] yes=7,no=8,missing=7
+			7:leaf=-0.0411355868
+			8:leaf=-0.0135994842
+		4:leaf=-0.0143039888
+	2:[distance_day<31.7562408] yes=5,no=6,missing=5
+		5:[login_day<5.9700284] yes=9,no=10,missing=9
+			9:[login_time<5.16272736] yes=13,no=14,missing=13
+				13:[first_order_time<1546751104] yes=21,no=22,missing=21
+					21:leaf=-0
+					22:leaf=-0.0327895172
+				14:[login_diff_time<1.19741988] yes=23,no=24,missing=23
+					23:[first_order_time<1556673920] yes=35,no=36,missing=35
+						35:[learn_num<7.51781654] yes=57,no=58,missing=57
+							57:leaf=0.0404443368
+							58:leaf=0.00873801019
+						36:leaf=-0
+					24:[study_num<0.0951109156] yes=37,no=38,missing=37
+						37:[video_read<36.5] yes=59,no=60,missing=59
+							59:[first_order_price<0.504999995] yes=91,no=92,missing=91
+								91:[first_order_time<1544557184] yes=115,no=116,missing=115
+									115:leaf=0.00300857774
+									116:leaf=-0.0335014425
+								92:[login_diff_time<1.625] yes=117,no=118,missing=117
+									117:leaf=0.0144951586
+									118:leaf=0.00298412004
+							60:[answer_task<30.5] yes=93,no=94,missing=93
+								93:leaf=0.0344410241
+								94:leaf=0.00324092922
+						38:[age_month<42] yes=61,no=62,missing=61
+							61:leaf=-0.0051736203
+							62:[evaulationcenter<6.99107552] yes=95,no=96,missing=95
+								95:leaf=0.0388008915
+								96:leaf=0.00451260898
+			10:[coupon<1.00485861] yes=15,no=16,missing=15
+				15:[learn_num<4.95635557] yes=25,no=26,missing=25
+					25:[video_read<17] yes=39,no=40,missing=39
+						39:leaf=-0.0290670451
+						40:[course_tab<3.5] yes=63,no=64,missing=63
+							63:[chapter_module<1.5] yes=97,no=98,missing=97
+								97:leaf=0.017534839
+								98:[evaulationcenter<1.5] yes=119,no=120,missing=119
+									119:leaf=-0.0290465411
+									120:leaf=-0
+							64:[chinese_subscribe_num<0.262108922] yes=99,no=100,missing=99
+								99:leaf=-0
+								100:leaf=0.0332829356
+					26:[login_diff_time<0.845000029] yes=41,no=42,missing=41
+						41:[first_order_time<1551746304] yes=65,no=66,missing=65
+							65:leaf=0.025255857
+							66:leaf=-0.0180620831
+						42:[course_order_num<1.5] yes=67,no=68,missing=67
+							67:[distance_day<23.5] yes=101,no=102,missing=101
+								101:[course_tab<3.5] yes=121,no=122,missing=121
+									121:leaf=-0.00873801298
+									122:leaf=-0.0396049581
+								102:leaf=-0.00424668379
+							68:leaf=0.000284965296
+				16:[chinese_subscribe_num<0.201834872] yes=27,no=28,missing=27
+					27:[age_month<62.5] yes=43,no=44,missing=43
+						43:[chapter_module<16.5] yes=69,no=70,missing=69
+							69:[first_order_time<1544191488] yes=103,no=104,missing=103
+								103:leaf=0.0168729443
+								104:leaf=-0.0256740898
+							70:leaf=0.0276749618
+						44:[lightcoursetab<1.96380496] yes=71,no=72,missing=71
+							71:leaf=-0.00476912921
+							72:leaf=-0.0292974804
+					28:[ppt<10.4661074] yes=45,no=46,missing=45
+						45:leaf=-0.00770578673
+						46:[model_num<6.44509125] yes=73,no=74,missing=73
+							73:leaf=-0.000621819985
+							74:leaf=0.0374567471
+		6:[distance_day<98.5] yes=11,no=12,missing=11
+			11:[study_num<0.0105383378] yes=17,no=18,missing=17
+				17:[login_diff_time<0.799924493] yes=29,no=30,missing=29
+					29:[task<8.00755405] yes=47,no=48,missing=47
+						47:[answer_task<3.5] yes=75,no=76,missing=75
+							75:leaf=-0.0320364274
+							76:leaf=-0.00292266789
+						48:[distance_day<63.5] yes=77,no=78,missing=77
+							77:leaf=0.0265317149
+							78:leaf=-0.00659906445
+					30:[course_tab<89] yes=49,no=50,missing=49
+						49:[coupon_visit<0.683681071] yes=79,no=80,missing=79
+							79:[first_order_time<1545826304] yes=105,no=106,missing=105
+								105:[share<4.5] yes=123,no=124,missing=123
+									123:[chinese_subscribe_num<0.5] yes=131,no=132,missing=131
+										131:leaf=-0.0349519812
+										132:leaf=0.00575108593
+									124:[chapter_module<1.5] yes=133,no=134,missing=133
+										133:leaf=-0.012284521
+										134:leaf=0.0228539668
+								106:[age_month<68.3987427] yes=125,no=126,missing=125
+									125:[login_time<71.5] yes=135,no=136,missing=135
+										135:leaf=-0.0375579186
+										136:leaf=-0.0155841783
+									126:[ppt<4] yes=137,no=138,missing=137
+										137:leaf=-0.0332702659
+										138:leaf=0.00096164149
+							80:[distance_day<89.5] yes=107,no=108,missing=107
+								107:leaf=-0.03979972
+								108:leaf=-0.0146734789
+						50:leaf=0.00646805624
+				18:[learn_num<6.98046398] yes=31,no=32,missing=31
+					31:[course_order_num<0.00828810781] yes=51,no=52,missing=51
+						51:[ppt<28] yes=81,no=82,missing=81
+							81:[camp_num<1.5] yes=109,no=110,missing=109
+								109:[video_read<10.320816] yes=127,no=128,missing=127
+									127:leaf=0.0164389499
+									128:leaf=-0.0170231368
+								110:leaf=-0.0349136852
+							82:[distance_day<41.5] yes=111,no=112,missing=111
+								111:leaf=0.0307544656
+								112:[main_home<98.5] yes=129,no=130,missing=129
+									129:[coupon_visit<0.671293736] yes=139,no=140,missing=139
+										139:leaf=0.0249309819
+										140:leaf=-0.014399319
+									130:leaf=-0.0240822081
+						52:[launch_time<2.5] yes=83,no=84,missing=83
+							83:[chapter_module<28.6424141] yes=113,no=114,missing=113
+								113:leaf=0.0369055532
+								114:leaf=0.00303990813
+							84:leaf=-0.00626732642
+					32:[coupon<1.22948074] yes=53,no=54,missing=53
+						53:leaf=-0.0383495428
+						54:[video_play<35.4832497] yes=85,no=86,missing=85
+							85:leaf=-0.015282332
+							86:leaf=0.0295855012
+			12:[distance_day<403.5] yes=19,no=20,missing=19
+				19:[distance_day<171.5] yes=33,no=34,missing=33
+					33:[course_order_num<0.449642271] yes=55,no=56,missing=55
+						55:[login_diff_time<1.58500004] yes=87,no=88,missing=87
+							87:leaf=-0.0398599915
+							88:leaf=0.00422537839
+						56:[chinese_subscribe_num<0.84434104] yes=89,no=90,missing=89
+							89:leaf=-0.0149741834
+							90:leaf=0.0266301818
+					34:leaf=-0.0411246382
+				20:leaf=0.0148182884

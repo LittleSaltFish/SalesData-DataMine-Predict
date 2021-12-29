@@ -1,0 +1,437 @@
+digraph {
+    graph [ rankdir=TB ]
+
+    0 [ label="coupon<0.00544844894" ]
+    0 -> 1 [label="yes, missing" color="#0000FF"]
+    0 -> 2 [label="no" color="#FF0000"]
+
+    1 [ label="distance_day<-1.5" ]
+    1 -> 3 [label="yes, missing" color="#0000FF"]
+    1 -> 4 [label="no" color="#FF0000"]
+
+    3 [ label="model_num<6.73894978" ]
+    3 -> 7 [label="yes, missing" color="#0000FF"]
+    3 -> 8 [label="no" color="#FF0000"]
+
+    7 [ label="leaf=-0" ]
+
+    8 [ label="leaf=0.0423076935" ]
+
+    4 [ label="course_order_num<1.06529522" ]
+    4 -> 9 [label="yes, missing" color="#0000FF"]
+    4 -> 10 [label="no" color="#FF0000"]
+
+    9 [ label="distance_day<30.5" ]
+    9 -> 15 [label="yes, missing" color="#0000FF"]
+    9 -> 16 [label="no" color="#FF0000"]
+
+    15 [ label="camp_num<0.867343247" ]
+    15 -> 27 [label="yes, missing" color="#0000FF"]
+    15 -> 28 [label="no" color="#FF0000"]
+
+    27 [ label="chinese_subscribe_num<0.170230344" ]
+    27 -> 49 [label="yes, missing" color="#0000FF"]
+    27 -> 50 [label="no" color="#FF0000"]
+
+    49 [ label="login_diff_time<0.774999976" ]
+    49 -> 87 [label="yes, missing" color="#0000FF"]
+    49 -> 88 [label="no" color="#FF0000"]
+
+    87 [ label="leaf=-0.0382591113" ]
+
+    88 [ label="leaf=-0.0488304123" ]
+
+    50 [ label="login_diff_time<0.830000043" ]
+    50 -> 89 [label="yes, missing" color="#0000FF"]
+    50 -> 90 [label="no" color="#FF0000"]
+
+    89 [ label="leaf=0.0206214692" ]
+
+    90 [ label="leaf=-0.0444444455" ]
+
+    28 [ label="study_num<0.0372142754" ]
+    28 -> 51 [label="yes, missing" color="#0000FF"]
+    28 -> 52 [label="no" color="#FF0000"]
+
+    51 [ label="login_diff_time<17.7999992" ]
+    51 -> 91 [label="yes, missing" color="#0000FF"]
+    51 -> 92 [label="no" color="#FF0000"]
+
+    91 [ label="leaf=-0.0495064817" ]
+
+    92 [ label="leaf=-0.0125000002" ]
+
+    52 [ label="login_diff_time<0.814999998" ]
+    52 -> 93 [label="yes, missing" color="#0000FF"]
+    52 -> 94 [label="no" color="#FF0000"]
+
+    93 [ label="leaf=-0.0328162275" ]
+
+    94 [ label="leaf=-0.047436811" ]
+
+    16 [ label="distance_day<680.5" ]
+    16 -> 29 [label="yes, missing" color="#0000FF"]
+    16 -> 30 [label="no" color="#FF0000"]
+
+    29 [ label="main_home2<633.5" ]
+    29 -> 53 [label="yes, missing" color="#0000FF"]
+    29 -> 54 [label="no" color="#FF0000"]
+
+    53 [ label="leaf=-0.0499095507" ]
+
+    54 [ label="leaf=-0.00555555569" ]
+
+    30 [ label="chinese_subscribe_num<0.5" ]
+    30 -> 55 [label="yes, missing" color="#0000FF"]
+    30 -> 56 [label="no" color="#FF0000"]
+
+    55 [ label="leaf=-0.0250000004" ]
+
+    56 [ label="leaf=0.0125000002" ]
+
+    10 [ label="platform_num<9.75048161" ]
+    10 -> 17 [label="yes, missing" color="#0000FF"]
+    10 -> 18 [label="no" color="#FF0000"]
+
+    17 [ label="distance_day<29.5" ]
+    17 -> 31 [label="yes, missing" color="#0000FF"]
+    17 -> 32 [label="no" color="#FF0000"]
+
+    31 [ label="login_diff_time<0.845000029" ]
+    31 -> 57 [label="yes, missing" color="#0000FF"]
+    31 -> 58 [label="no" color="#FF0000"]
+
+    57 [ label="login_time<119.080078" ]
+    57 -> 95 [label="yes, missing" color="#0000FF"]
+    57 -> 96 [label="no" color="#FF0000"]
+
+    95 [ label="leaf=0.0357142873" ]
+
+    96 [ label="leaf=-0.0125000002" ]
+
+    58 [ label="math_subscribe_num<0.5" ]
+    58 -> 97 [label="yes, missing" color="#0000FF"]
+    58 -> 98 [label="no" color="#FF0000"]
+
+    97 [ label="leaf=-0.0445945971" ]
+
+    98 [ label="leaf=-0.00333333365" ]
+
+    32 [ label="main_home<4.5" ]
+    32 -> 59 [label="yes, missing" color="#0000FF"]
+    32 -> 60 [label="no" color="#FF0000"]
+
+    59 [ label="model_num<12.3122082" ]
+    59 -> 99 [label="yes, missing" color="#0000FF"]
+    59 -> 100 [label="no" color="#FF0000"]
+
+    99 [ label="leaf=-0.0416666679" ]
+
+    100 [ label="leaf=0.00384615408" ]
+
+    60 [ label="济南<0.5" ]
+    60 -> 101 [label="yes, missing" color="#0000FF"]
+    60 -> 102 [label="no" color="#FF0000"]
+
+    101 [ label="leaf=-0.0489534885" ]
+
+    102 [ label="leaf=-0.0192307699" ]
+
+    18 [ label="answer_task<3.5" ]
+    18 -> 33 [label="yes, missing" color="#0000FF"]
+    18 -> 34 [label="no" color="#FF0000"]
+
+    33 [ label="leaf=0.0384615399" ]
+
+    34 [ label="chinese_subscribe_num<0.126237974" ]
+    34 -> 61 [label="yes, missing" color="#0000FF"]
+    34 -> 62 [label="no" color="#FF0000"]
+
+    61 [ label="finish_num<3.5" ]
+    61 -> 103 [label="yes, missing" color="#0000FF"]
+    61 -> 104 [label="no" color="#FF0000"]
+
+    103 [ label="leaf=-0" ]
+
+    104 [ label="leaf=-0.0300000012" ]
+
+    62 [ label="leaf=0.0136363646" ]
+
+    2 [ label="distance_day<31.9986877" ]
+    2 -> 5 [label="yes, missing" color="#0000FF"]
+    2 -> 6 [label="no" color="#FF0000"]
+
+    5 [ label="login_day<6.99932766" ]
+    5 -> 11 [label="yes, missing" color="#0000FF"]
+    5 -> 12 [label="no" color="#FF0000"]
+
+    11 [ label="login_diff_time<1.16983891" ]
+    11 -> 19 [label="yes, missing" color="#0000FF"]
+    11 -> 20 [label="no" color="#FF0000"]
+
+    19 [ label="first_order_time<1.55169434e+09" ]
+    19 -> 35 [label="yes, missing" color="#0000FF"]
+    19 -> 36 [label="no" color="#FF0000"]
+
+    35 [ label="distance_day<30.8938007" ]
+    35 -> 63 [label="yes, missing" color="#0000FF"]
+    35 -> 64 [label="no" color="#FF0000"]
+
+    63 [ label="video_read<0.0850721151" ]
+    63 -> 105 [label="yes, missing" color="#0000FF"]
+    63 -> 106 [label="no" color="#FF0000"]
+
+    105 [ label="leaf=0.0379310362" ]
+
+    106 [ label="leaf=0.0488049984" ]
+
+    64 [ label="login_day<5.98294306" ]
+    64 -> 107 [label="yes, missing" color="#0000FF"]
+    64 -> 108 [label="no" color="#FF0000"]
+
+    107 [ label="leaf=0.0419999994" ]
+
+    108 [ label="leaf=-0.0250000004" ]
+
+    36 [ label="login_day<5.9984417" ]
+    36 -> 65 [label="yes, missing" color="#0000FF"]
+    36 -> 66 [label="no" color="#FF0000"]
+
+    65 [ label="login_time<9.06978989" ]
+    65 -> 109 [label="yes, missing" color="#0000FF"]
+    65 -> 110 [label="no" color="#FF0000"]
+
+    109 [ label="leaf=-0.0176056344" ]
+
+    110 [ label="leaf=0.0414749645" ]
+
+    66 [ label="login_diff_time<0.983572543" ]
+    66 -> 111 [label="yes, missing" color="#0000FF"]
+    66 -> 112 [label="no" color="#FF0000"]
+
+    111 [ label="leaf=0.0128865978" ]
+
+    112 [ label="leaf=-0.0286666658" ]
+
+    20 [ label="study_num<0.00124096568" ]
+    20 -> 37 [label="yes, missing" color="#0000FF"]
+    20 -> 38 [label="no" color="#FF0000"]
+
+    37 [ label="task<12.5" ]
+    37 -> 67 [label="yes, missing" color="#0000FF"]
+    37 -> 68 [label="no" color="#FF0000"]
+
+    67 [ label="distance_day<5.5" ]
+    67 -> 113 [label="yes, missing" color="#0000FF"]
+    67 -> 114 [label="no" color="#FF0000"]
+
+    113 [ label="leaf=0.0227272734" ]
+
+    114 [ label="leaf=-0.0388888903" ]
+
+    68 [ label="login_diff_time<1.17503309" ]
+    68 -> 115 [label="yes, missing" color="#0000FF"]
+    68 -> 116 [label="no" color="#FF0000"]
+
+    115 [ label="leaf=-0.0288819876" ]
+
+    116 [ label="leaf=0.0159942359" ]
+
+    38 [ label="video_read<7.93074799" ]
+    38 -> 69 [label="yes, missing" color="#0000FF"]
+    38 -> 70 [label="no" color="#FF0000"]
+
+    69 [ label="distance_day<23.38797" ]
+    69 -> 117 [label="yes, missing" color="#0000FF"]
+    69 -> 118 [label="no" color="#FF0000"]
+
+    117 [ label="leaf=-0.017368421" ]
+
+    118 [ label="leaf=0.033870969" ]
+
+    70 [ label="login_diff_time<1.17031944" ]
+    70 -> 119 [label="yes, missing" color="#0000FF"]
+    70 -> 120 [label="no" color="#FF0000"]
+
+    119 [ label="leaf=0.00555555569" ]
+
+    120 [ label="leaf=0.0386266075" ]
+
+    12 [ label="course_order_num<0.0659095719" ]
+    12 -> 21 [label="yes, missing" color="#0000FF"]
+    12 -> 22 [label="no" color="#FF0000"]
+
+    21 [ label="login_diff_time<10.2684269" ]
+    21 -> 39 [label="yes, missing" color="#0000FF"]
+    21 -> 40 [label="no" color="#FF0000"]
+
+    39 [ label="distance_day<6.5" ]
+    39 -> 71 [label="yes, missing" color="#0000FF"]
+    39 -> 72 [label="no" color="#FF0000"]
+
+    71 [ label="leaf=0.0404761918" ]
+
+    72 [ label="coupon<1.08405876" ]
+    72 -> 121 [label="yes, missing" color="#0000FF"]
+    72 -> 122 [label="no" color="#FF0000"]
+
+    121 [ label="leaf=-0.0392531864" ]
+
+    122 [ label="leaf=-0.0165322591" ]
+
+    40 [ label="leaf=0.0379999988" ]
+
+    22 [ label="distance_day<23.0999641" ]
+    22 -> 41 [label="yes, missing" color="#0000FF"]
+    22 -> 42 [label="no" color="#FF0000"]
+
+    41 [ label="chinese_subscribe_num<0.120881788" ]
+    41 -> 73 [label="yes, missing" color="#0000FF"]
+    41 -> 74 [label="no" color="#FF0000"]
+
+    73 [ label="course_order_num<2.5" ]
+    73 -> 123 [label="yes, missing" color="#0000FF"]
+    73 -> 124 [label="no" color="#FF0000"]
+
+    123 [ label="leaf=-0.0358695649" ]
+
+    124 [ label="leaf=0.0108695654" ]
+
+    74 [ label="distance_day<18.895422" ]
+    74 -> 125 [label="yes, missing" color="#0000FF"]
+    74 -> 126 [label="no" color="#FF0000"]
+
+    125 [ label="leaf=0.0307999998" ]
+
+    126 [ label="leaf=-0.0044554458" ]
+
+    42 [ label="age_month<81.5" ]
+    42 -> 75 [label="yes, missing" color="#0000FF"]
+    42 -> 76 [label="no" color="#FF0000"]
+
+    75 [ label="leaf=0.0471428595" ]
+
+    76 [ label="coupon_visit<3.5" ]
+    76 -> 127 [label="yes, missing" color="#0000FF"]
+    76 -> 128 [label="no" color="#FF0000"]
+
+    127 [ label="leaf=0.0318181813" ]
+
+    128 [ label="leaf=-0.0125000002" ]
+
+    6 [ label="distance_day<168.5" ]
+    6 -> 13 [label="yes, missing" color="#0000FF"]
+    6 -> 14 [label="no" color="#FF0000"]
+
+    13 [ label="course_order_num<0.00320198992" ]
+    13 -> 23 [label="yes, missing" color="#0000FF"]
+    13 -> 24 [label="no" color="#FF0000"]
+
+    23 [ label="study_num<0.00901718717" ]
+    23 -> 43 [label="yes, missing" color="#0000FF"]
+    23 -> 44 [label="no" color="#FF0000"]
+
+    43 [ label="coupon_visit<0.827653825" ]
+    43 -> 77 [label="yes, missing" color="#0000FF"]
+    43 -> 78 [label="no" color="#FF0000"]
+
+    77 [ label="first_order_price<0.119224764" ]
+    77 -> 129 [label="yes, missing" color="#0000FF"]
+    77 -> 130 [label="no" color="#FF0000"]
+
+    129 [ label="leaf=-0.0357627124" ]
+
+    130 [ label="leaf=-0.0200549457" ]
+
+    78 [ label="coupon<1.30086613" ]
+    78 -> 131 [label="yes, missing" color="#0000FF"]
+    78 -> 132 [label="no" color="#FF0000"]
+
+    131 [ label="leaf=-0.0480790995" ]
+
+    132 [ label="leaf=-0.0336909853" ]
+
+    44 [ label="study_num<0.987222791" ]
+    44 -> 79 [label="yes, missing" color="#0000FF"]
+    44 -> 80 [label="no" color="#FF0000"]
+
+    79 [ label="leaf=0.0468253978" ]
+
+    80 [ label="learn_num<4.97960997" ]
+    80 -> 133 [label="yes, missing" color="#0000FF"]
+    80 -> 134 [label="no" color="#FF0000"]
+
+    133 [ label="leaf=-0.00674300268" ]
+
+    134 [ label="leaf=-0.0336283185" ]
+
+    24 [ label="coupon_visit<0.998295426" ]
+    24 -> 45 [label="yes, missing" color="#0000FF"]
+    24 -> 46 [label="no" color="#FF0000"]
+
+    45 [ label="chinese_subscribe_num<0.000266496994" ]
+    45 -> 81 [label="yes, missing" color="#0000FF"]
+    45 -> 82 [label="no" color="#FF0000"]
+
+    81 [ label="age_month<88.5" ]
+    81 -> 135 [label="yes, missing" color="#0000FF"]
+    81 -> 136 [label="no" color="#FF0000"]
+
+    135 [ label="leaf=0.0124413148" ]
+
+    136 [ label="leaf=-0.0291666668" ]
+
+    82 [ label="learn_num<4.99967432" ]
+    82 -> 137 [label="yes, missing" color="#0000FF"]
+    82 -> 138 [label="no" color="#FF0000"]
+
+    137 [ label="leaf=0.0432432443" ]
+
+    138 [ label="leaf=0.0266666692" ]
+
+    46 [ label="coupon<1.13568807" ]
+    46 -> 83 [label="yes, missing" color="#0000FF"]
+    46 -> 84 [label="no" color="#FF0000"]
+
+    83 [ label="coupon<0.962604642" ]
+    83 -> 139 [label="yes, missing" color="#0000FF"]
+    83 -> 140 [label="no" color="#FF0000"]
+
+    139 [ label="leaf=0.0300000012" ]
+
+    140 [ label="leaf=-0.0382129289" ]
+
+    84 [ label="chinese_subscribe_num<0.0224739294" ]
+    84 -> 141 [label="yes, missing" color="#0000FF"]
+    84 -> 142 [label="no" color="#FF0000"]
+
+    141 [ label="leaf=-0.0200000014" ]
+
+    142 [ label="leaf=0.0216535442" ]
+
+    14 [ label="distance_day<529.223389" ]
+    14 -> 25 [label="yes, missing" color="#0000FF"]
+    14 -> 26 [label="no" color="#FF0000"]
+
+    25 [ label="login_diff_time<2.90981293" ]
+    25 -> 47 [label="yes, missing" color="#0000FF"]
+    25 -> 48 [label="no" color="#FF0000"]
+
+    47 [ label="leaf=-0.0498187318" ]
+
+    48 [ label="distance_day<356.5" ]
+    48 -> 85 [label="yes, missing" color="#0000FF"]
+    48 -> 86 [label="no" color="#FF0000"]
+
+    85 [ label="distance_day<192.165421" ]
+    85 -> 143 [label="yes, missing" color="#0000FF"]
+    85 -> 144 [label="no" color="#FF0000"]
+
+    143 [ label="leaf=-0.0369565226" ]
+
+    144 [ label="leaf=0.0346153863" ]
+
+    86 [ label="leaf=-0.0472477078" ]
+
+    26 [ label="leaf=0.0382352956" ]
+}
